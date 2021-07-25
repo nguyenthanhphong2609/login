@@ -1,0 +1,223 @@
+
+body{
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+}
+.container{
+    margin-top: 40px;
+    width: 90%;
+}
+.top-left-img{
+    background: rgb(55, 55, 56);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.top-left-img h3{
+    color: #fff;
+}
+.top-left-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display:inline-block;
+}
+.bottom-left-info{
+    background: rgb(50, 59, 71);
+    color: white;
+}
+.title-name h3{
+    font-size: 38px;
+}
+.title-name p{
+    font-size: 14px;
+}
+.paragraph p{
+    font-size: 13px;
+}
+.paragraph ul{
+    padding-left: 0;
+    list-style: none;
+}
+.paragraph ul li{
+    font-size: 13px;
+}
+.personal-info{
+    padding-left: 0;
+}
+.personal-info li{
+    display: block;
+    padding-top: 20px
+}
+.personal-info li i{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+}
+.social-network ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.social-network ul li a{
+    font-family: "FontAwesome";
+    display: inline-block;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(121, 120, 120);
+    border-radius: 50%;
+    line-height: auto;
+    line-height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+.social-network ul li a:visited{
+    text-decoration: none;
+    color: rgb(88, 87, 87);
+}
+.social-network ul li a:hover{
+    border-color: transparent;
+    text-decoration: none;
+    color: white;
+    background: rgb(92, 138, 168);
+}
+.social-network ul{
+    margin-top: 30px;
+}
+.text{
+    width: 100%;
+}
+.personal-information ul{
+    padding-left: 0;
+}
+.personal-information ul li{
+    border-bottom: 15px solid ;
+    display: block;    
+    margin-top: 15px;
+}
+.personal-information ul li b{
+    color: #222222;
+}
+.box{
+    position: absolute;
+    background-color: #212121;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+    margin-top: -8px;
+    right: 1rem;
+    border-radius: 5px;
+    
+}
+.box:before {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 10px solid #212121;
+    content: "";
+    left: 18px;
+    position: absolute;
+    top: 20px;
+}
+.owl-nav{
+    display: none;
+}
+.banner-eng{
+    background-image: url("./images/mon-anh.jpg");
+    min-height: 200px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.banner-math{
+    background-image: url("./images/mon-toan.jpg");
+    background-size: cover;
+    min-height: 200px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.content{
+    margin-top: 50px;
+    text-align: center;
+}
+.num{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 36px;
+}
+.num:after{
+    content: " ";
+    background: #e89d20;
+    width: 110px;
+    height: 3px;
+    display: block;
+    margin:10px auto;
+}
+.text{
+    text-transform: uppercase;
+}
+.list{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    font-size: 14px;
+    
+}
+.container-fluid{
+    margin: 0;
+    padding: 0 !important;
+}
+h2{
+    font-family: 'Oswald',sans-serif;
+    color: #222222;
+    font-size: 38px;
+}
+h3{
+    font-family: 'Oswald',sans-serif;
+    color: #222222;
+}
+h5{
+    font-family: 'Oswald',sans-serif;
+    color: #222222;
+}
+@media only screen and (max-width:767px){
+    .top-left-img img{
+        max-height: 140px;
+        max-width: 140px;
+    }
+    .list li{
+        flex-basis: 33%;
+        font-size: 10px;
+    }
+    .list li .num{
+        font-size: 30px;
+    }
+    .list li .num::after{
+        width: 90px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .top-left-img img{
+        max-height: 140px;
+        max-height: 140px;
+    }
+    .list li .num{
+        font-size: 22px;
+    }
+    .list li .num::after{
+        width: 60px;
+    }
+}
+

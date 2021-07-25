@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Course Schedules</title>
+	<link rel='stylesheet' href='.\css\css\Iconbox.css'/>
+	<link rel='stylesheet' href='.\css\css\font-awesome-4.5.0-master\css\font-awesome.css'/>
+	<link rel='stylesheet' href='.\css\css\bootstrap-3.3.2-dist\css\bootstrap.css'/>
+	<link rel='stylesheet' href='.\css\css\framework.css'/> 
+	<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C500%2C700%2C900%2C100italic%2C300italic%2C400italic%2C500italic%2C700italic%2C900italic%7COswald%3A300%2C400%2C700&#038;ver=1592623596"/>
+	<link rel='stylesheet' href='.\css\style.css'/>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="./assets/css/base.css" />
+	<link rel="stylesheet" href="./assets/css/Home/home.css" />
+	<link rel="stylesheet" href="./assets/css/Home/homeresponsive.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+<section class="home__page">
+      <!-- header -->
+      <header class="header">
+        <div class="row-exe">
+          <!-- menu toggle -->
+          <div class="menu__toggle">
+            <i class="fa fa-bars"></i>
+          </div>
+          <!-- header logo -->
+          <div class="header__logo">
+            <a href="index.html" class="header__logo-link">
+              <img
+                src="./img/Picture8.png"
+                alt="Ex_Logo"
+                class="header__logo-img"
+              />
+            </a>
+          </div>
+          <!-- menu -->
+          <div class="header__menu">
+            <div class="header__menu-details">
+              <!-- nav -->
+              <nav class="header__nav">
+                <ul class="header__nav-list">
+                  <li class="header__nav-item">
+                    <a href="index.html" class="header__nav-link">HOME</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="blog.html" class="header__nav-link">BLOG</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a
+                      href="F:\Desktop\course\Course-list.html"
+                      class="header__nav-link"
+                    >
+                      <span>COURSE</span>
+                      <i class="fa fa-caret-down"></i>
+                    </a>
+                    <!-- sub menu -->
+                    <ul class="nav-child__list">
+                      <li class="nav-child__item">
+                        <a
+                          href="Business Management.html"
+                          class="nav-child__link"
+                        >
+                          <i class="fa fa-chevron-right"></i>
+                          <span>BUSINESS MANAGEMENT</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a
+                          href="Graphic Design.html"
+                          class="nav-child__link"
+                        >
+                          <i class="fa fa-chevron-right"></i>
+                          <span>GRAPHIC DESIGN</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a
+                          href="Law Economic.html"
+                          class="nav-child__link"
+                        >
+                          <i class="fa fa-chevron-right"></i>
+                          <span>LAW ECONOMIC</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a
+                          href="Mobile Apps Develop.html"
+                          class="nav-child__link"
+                        >
+                          <i class="fa fa-chevron-right"></i>
+                          <span>MOBILE APPS DEVELOP</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a
+                          href="Web Design.html"
+                          class="nav-child__link"
+                        >
+                          <i class="fa fa-chevron-right"></i>
+                          <span>WEB DESIGN</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="event.html" class="header__nav-link">EVENTS</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href=".\Teachers\teacher-details.html" class="header__nav-link">TEACHERS</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a
+                      href="About us.html"
+                      class="header__nav-link"
+                      >ABOUT</a
+                    >
+                  </li>
+                  <li class="header__nav-item">
+                    <a
+                      href="Contact us.html"
+                      class="header__nav-link"
+                      >CONTACT</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <!-- menu icon -->
+              <div class="menu__icon">
+                <div class="cart__icon">
+                  <i class="fa fa-shopping-cart"></i>
+                </div>
+                <div class="search__icon">
+                  <i class="fa fa-search"></i>
+                </div>
+                <div class="lock__icon" id="show-login">
+                  <i class="fa fa-user"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- mobile nav -->
+          <div class="header-mobile__nav">
+            <!-- search bar -->
+            <form action="" class="mobile__searchbar">
+              <input type="text" placeholder="Search..." />
+              <button class="btn btn-searchbar">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+            <!-- mobile nav -->
+            <nav class="mobile-nav">
+              <ul class="mobile__nav-list">
+                <li class="mobile__nav-item">
+                  <a href="index.html" class="mobile__nav-link">HOME</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="blog.html" class="mobile__nav-link">BLOG</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <button class="mobile__nav-link">
+                    <span>COURSE</span>
+                    <i class="fa fa-chevron-down"></i>
+                  </button>
+                  <!-- second menu -->
+                  <ul class="mobile__nav-child-list">
+                    <li class="mobile__nav-child-item">
+                      <a
+                        href="./Course-list.html"
+                        class="mobile__nav-child-link"
+                        >Business</a
+                      >
+                    </li>
+                    <li class="mobile__nav-child-item">
+                      <a
+                        href="./Course-list.html"
+                        class="mobile__nav-child-link"
+                        >Science</a
+                      >
+                    </li>
+                    <li class="mobile__nav-child-item">
+                      <a
+                        href="./Course-list.html"
+                        class="mobile__nav-child-link"
+                        >Life Skills</a
+                      >
+                    </li>
+                    <li class="mobile__nav-child-item">
+                      <a
+                        href="./Course-list.html"
+                        class="mobile__nav-child-link"
+                        >Technology</a
+                      >
+                    </li>
+                    <li class="mobile__nav-child-item">
+                      <a
+                        href="./Course-list.html"
+                        class="mobile__nav-child-link"
+                        >Law</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="event.html" class="mobile__nav-link">EVENTS</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="teacher.html" class="mobile__nav-link">TEACHERS</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <a
+                    href="About us.html"
+                    class="mobile__nav-link"
+                    >ABOUT</a
+                  >
+                </li>
+                <li class="mobile__nav-item">
+                  <a
+                    href="Contact us.html"
+                    class="mobile__nav-link"
+                    >CONTACT</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+	        <div class="overlay"></div>
+      <!-- ------------------- -->
+      <!-- small info -->
+      <div class="small-info">
+        <div class="row-exe">
+          <a href="mailto:infoacademica@gmail.com" class="small-info__email">
+            <i class="fab fa-telegram-plane"></i>
+            <span>EXCELLENTCOACHING@gmail.com</span>
+          </a>
+          <p class="calendar-info">
+            <i class="far fa-clock"></i>
+            <span>MON - SAT: 9:00 - 18:00</span>
+          </p>
+        </div>
+      </div>
+<div id="wrapper-content" class="clearfix">
+<section id="page-title" class="page-title-wrap page-title-margin">
+	<div class="page-title-parallax" style="background-image: url('ảnh nền.jpg');background-position:center center;"></div>
+	<div class="container">
+		<div class="page-title-inner pt-bottom">
+			<div class="m-title">
+				<h2 class="p-font">Course Schedules</h2>
+			</div>
+			<div class="breadcrumbs-wrap">
+				<div class="breadcrumbs-inner">
+					<ul class="breadcrumbs">
+						<li><a href="<!--Trang chủ-->"<a class="home"><i class="fa fa-home"></i></a></li>
+							<li><span><h1>Course Schedules</h1></span></li></ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<main class="site-content-page">
+<div class="container clearfix">
+	<div class="row clearfix">
+		<div class="site-content-page-inner col-md-12">
+			<div class="page-content">
+				<div id="post-494" class="post-494 page type-page status-publish hentry">
+<div class="entry-content clearfix">
+	<div class="fullwidth">
+		<div class="vc_row wpb_row vc_row-fluid mg-bottom-140">
+			<div class="wpb_column vc_column_container vc_col-sm-12">
+				<div class="vc_column-inner">
+					<div class="wpb_wrapper">
+						<div class="catalog-filter-inner t-bg clearfix">
+<div class="filter-category-wrap">
+	<span class="w-cat">
+		<label>
+			<select id='menu'>
+				<option value="All courses">
+					<a href="./Course Schedules.html">All courses</a>
+				</option>
+				<option value="Business Management">
+					<a href="./Business Management.html">Business Management ( 8 )</a>
+				</option>
+				<option value="Graphic Design" >
+					<a href="./Graphic Design.html">Graphic Design ( 6 )</a>
+				</option>
+				<option value="Law Economic" selected>
+					<a href="./Law Economic.html">Law Economic ( 7 )</a>
+				</option>
+				<option value="Mobile Apps Develop">
+					<a href="./Mobile Apps Develop.html">Mobile Apps Develop ( 6 )</a>
+				</option>
+				<option value="Seo Course">
+					<a href="./Seo Course.html">SEO Course ( 8 )</a>
+				</option>
+				<option value="Social Media">
+					<a href="./Social Media.html">Social Media ( 7 )</a>
+				</option>
+				<option value="Web Design">
+					<a href="./Web Design.html">Web Design ( 7 )</a>
+				</option>
+			</select>
+		</label>
+	</span>
+</div>
+        <script>
+            document.getElementById('menu').addEventListener('change', function() {
+                val = $( "#menu" ).val();     
+                console.log(val)
+                if(val === 'All courses'){
+                    window.open('./Course Schedules.html', '_self');
+                }
+                if(val === 'Business Management') {
+                    window.open('./Business Management.html', '_self');
+                }
+                if(val === 'Graphic Design') {
+                    window.open('./Graphic Design.html', '_self');
+				}
+				if(val === 'Law Economic') {
+                    window.open('./Law Economic.html', '_self');
+				}
+				if(val === 'Mobile Apps Develop') {
+                    window.open('./Mobile Apps Develop.html', '_self');
+				}
+				if(val === 'Seo Course') {
+                    window.open('./Seo Course.html', '_self');
+				}
+				if(val === 'Social Media') {
+                    window.open('./Social Media.html', '_self');
+				}
+				if(val === 'Web Design') {
+                    window.open('./Web Design.html', '_self');
+                }
+                });
+        </script>
+</div>
+<div class="course-cat-list">
+	<div class="course-cat mg-top-60">
+		<div class="heading color-dark text-left ">
+			<h2 class="heading-color fs-18">Law Economic</h2>
+		</div>
+<div class="course mg-top-30">
+<table>
+	<thead>
+		<tr class="fs-13 p-bg">
+			<th class="name">Course Name</th>
+			<th class="location">Location</th>
+			<th class="date">Date</th>
+			<th class="duration">Duration</th>
+		</tr>
+	</thead>
+		<tr class="course-item">
+			<td class="name"> <a href="<!--Link A theory-->"> A Theory of Justice</a></td>
+			<td class="location"> London</td>
+			<td class="date">April 27, 2016</td>
+			<td class="duration">3M 2H</td>
+		</tr>
+		<tr class="course-item">
+			<td class="name"> <a href="<!--Link business law-->"> Business Law</a></td>
+			<td class="location"> London</td>
+			<td class="date">March 23, 2016</td>
+			<td class="duration">3M 2H</td>
+		</tr>
+		<tr class="course-item">
+			<td class="name"> <a href="<!--Link economic-->"> Economic Analysis</a></td>
+			<td class="location"> Watford</td>
+			<td class="date">April 28, 2016</td>
+			<td class="duration">2M</td>
+		</tr>
+		<tr class="course-item">
+			<td class="name"> <a href="<!--Link how judges-->"> How Judges Think</a></td>
+			<td class="location"> London</td>
+			<td class="date">April 28, 2016</td>
+			<td class="duration">1M</td>
+		</tr>
+		<tr class="course-item">
+			<td class="name"> <a href="<!--Link law and economic-->"> Law and Economics</a></td>
+			<td class="location"> Watford</td>
+			<td class="date">April 28, 2016</td>
+			<td class="duration">2M</td>
+		</tr>
+		<tr class="course-item">
+			<td class="name"> <a href="<!--Link real estate law-->"> Real Estate Law</a></td>
+			<td class="location"> London</td>
+			<td class="date">March 23, 2016</td>
+			<td class="duration">3M 2H</td>
+		</tr>
+		<tr class="course-item">
+			<td class="name"> <a href="<!--Link the secrets-->"> The Secrets of Economic</a></td>
+			<td class="location"> London</td>
+			<td class="date">March 21, 2016</td>
+			<td class="duration">3M 2H</td>
+		</tr>
+</div>
+	</div>
+</table>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+				</div>
+			</div>
+		</div> 
+	</div>
+</div>
+</div>
+</main>
+     <footer class="footer">
+        <div class="row-exe">
+          <div class="footer-details">
+            <div class="footer__logo">
+              <a href="index.html" class="footer__logo-link">
+                <img src="./img/Picture8.png" class="footer__logo-img" />
+              </a>
+            </div>
+            <div class="footer__top">
+              <div class="footer__top-left">
+                <div class="footer__top-left-top">
+                  <h4 class="footer__heading">ABOUT US</h4>
+                  <p class="footer__desc">
+                    We are an experienced team creating great, unique and easy
+                    to set up templates for WordPress. We are a small, young and
+                    super driven team that likes to make great things happen.
+                  </p>
+                </div>
+                <div class="footer__top-left-bottom">
+                  <h4 class="footer__heading">GET IN TOUCH</h4>
+                  <ul class="footer-social__info">
+                    <li class="footer-social__item">
+                      <i class="fa fa-map-marked"></i>
+                      <span>
+                        G5 Technology JSC, Room 1101, Glory Palace Apartment,
+                        Truong Thi Ward, Vinh City, Nghe An Province,
+                        VietNam(42000)
+                      </span>
+                    </li>
+                    <li class="footer-social__item">
+                      <i class="fa fa-phone"></i>
+                      <span>(+84) 388-969-888 </span>
+                    </li>
+                    <li class="footer-social__item">
+                      <i class="fa fa-envelope"></i>
+                      <span>EXCELLENTCOACHING@gmail.com</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer__top-right">
+                <div class="footer__top-right-top">
+                  <h4 class="footer__heading">NEWSLETTER</h4>
+                  <form action="" class="footer-form">
+                    <input type="text" placeholder="YOUR NAME" />
+                    <input type="email" placeholder="EMAIL ADDRESS" />
+                    <button type="button">THANK YOU</button>
+                  </form>
+                </div>
+                <div class="footer__top-right-bottom">
+                  <h4 class="footer__heading">OUR FLICKR</h4>
+                  <div class="footer__gallery">
+                    <img
+                      src="assets/image/largerImg/largerimg1.jpg"
+                      alt="footerimg1"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg2.jpg"
+                      alt="footerimg2"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg3.jpg"
+                      alt="footerimg3"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg4.jpg"
+                      alt="footerimg4"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg5.jpg"
+                      alt="footerimg5"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg6.jpg"
+                      alt="footerimg6"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg7.jpg"
+                      alt="footerimg7"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg8.jpg"
+                      alt="footerimg8"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg9.jpg"
+                      alt="footerimg9"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__bottom">
+              <nav class="footer__nav">
+                <ul class="footer__nav-list">
+                  <li class="footer__nav-item">
+                    <a href="index.html" class="footer__nav-link">HOME</a>
+                  </li>
+                  <li class="footer__nav-item">
+                    <a href="course.html" class="footer__nav-link">COURSE</a>
+                  </li>
+                  <li class="footer__nav-item">
+                    <a href="event.html" class="footer__nav-link">EVENTS</a>
+                  </li>
+                  <li class="footer__nav-item">
+                    <a href="blog.html" class="footer__nav-link">BLOG</a>
+                  </li>
+                  <li class="footer__nav-item">
+                    <a href="About us.html" class="footer__nav-link">ABOUT</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/login_form.js"></script>
+    <script>
+      var x = document.getElementById("login");
+      var y = document.getElementById("register");
+      var z = document.getElementById("button");
+      function register() {
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px";
+      }
+      function login() {
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0px";
+      }
+    </script>
+    <script src="assets/js/home.js"></script>
+ </body>

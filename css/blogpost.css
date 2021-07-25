@@ -1,0 +1,156 @@
+.post-box{
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+}
+.post-box img{
+    
+    position: relative;
+}
+#posts{
+    background-color: #f8f8f8; 
+    margin-bottom: 50px;   
+}
+.video-hover{
+    background-color: #9261AA;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    
+    cursor: pointer;
+}
+.post-box:hover .video-hover{
+    opacity: 0.8;;
+}
+.post-box .main-icon{
+    position: absolute;
+    z-index: 1000;
+}
+.main-icon{
+    color: #fff;
+    opacity: 0.5;
+    font-size: 80px;
+    top: 40%;
+    left: 45%;
+}
+.main-icon:hover{
+    color: #FFF;
+    cursor: pointer;
+}
+
+.blog-post h4{
+    font-family: "Oswald",sans-serif;
+    font-size: 21px ;
+    color: black;
+    margin-bottom: 10px;
+}
+.blog-post h4:hover{
+    color: #9261AA;
+    cursor: pointer;
+}
+.blog-post p{
+    font-family: "Roboto",sans-serif;
+    font-size: 13px ;
+    color: #868686;
+    margin-bottom: 10px;
+}
+.qoutes{
+    width: 100%;
+    height: auto;
+    background-color: #ececec;
+    border-left:solid 6px #9261AA;
+    margin: 30px 0;
+}
+.qoutes h4{
+    padding:25px 25px ;
+    font-size: 18px;
+}
+.share-blog a{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    background-color: #f3f3f3;
+    color: #868686;
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin-right: 10px!important;
+    
+}
+.share{
+    margin: 20px 0;
+}
+.share-blog li{
+    display: inline-block;
+}
+.space{
+    height: 10px;
+    width: 40px;
+    border-bottom: solid 3px #FfBD88 ;
+}
+.video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19, 19, 19, 0.671);
+    display: none;
+    z-index: 10000;
+    cursor: pointer;
+}
+
+.play{
+    width: 560px;
+    height: 315px;
+    padding: 20px, 20px;
+    position: absolute;
+    top: 30%;
+    left:25%;
+}
+.video .active{
+    display: flex;
+}
+
+@media screen and (max-width:768px){
+    #side-bar{
+        display: none;
+    }    
+    .main-icon{
+        color: #fff;
+        opacity: 0.5;
+        font-size: 80px;
+        top: 35%;
+        left: 38%;
+    }
+}
+.share .share-blog #fb:hover a{
+    background-color: #3B5998;
+    color: white;
+}
+.share .share-blog #tw:hover a{
+    background: #55ACEE;
+  color: white;
+}
+.share .share-blog #gg:hover a{
+    background: #dd4b39;
+  color: white;
+}
+.share .share-blog #pt:hover a{
+    background: #cb2027;
+    color: white;
+}
+.share .share-blog #lk:hover a{
+    background: #007bb5;
+  color: white;
+}
+.share .share-blog #tb:hover a{
+    background: #2c4762;
+  color: white;
+}

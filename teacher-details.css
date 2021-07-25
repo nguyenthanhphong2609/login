@@ -1,0 +1,337 @@
+/* html{ 
+    font-size: 62.5%;
+}*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+}
+/* container-fluid */
+
+.container-fluid{
+    margin: 0;
+    padding: 30px 0;
+}
+.pages__title{
+    background-image: url("./images/bg-page-title.jpg");
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+}
+.pages__title-top{
+    width: 100%;
+    display: flex;
+    align-items:flex-end;
+    color: white;
+    margin-top: 0;
+}
+.pages__title-left{
+    position: relative;
+    z-index: 2;
+    height: 70px;
+    width:30% ;
+    line-height: 70px;
+    text-align: center;
+    padding-right: 4rem;
+    background-color: #9261aa;
+    font-family: 'oswald',sans-serif;
+}
+.pages__title-left::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 100%;
+    border-left: solid 40px rgb(166, 92, 235);
+    border-top: solid 70px transparent;
+}
+.pages__title-right::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 100%;
+    border-left: solid 40px #ffbd33;
+    border-top: solid 50px transparent;
+}
+.pages__title-left p{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'oswald',sans-serif;
+}
+.pages__title-right{
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    width: 55%;
+    padding-left: 3rem;
+    background-color: #ffbd33;
+    font-family: 'Roboto',sans-serif;
+}
+.pages__title-right span{
+    font-size: 15px;
+    margin-left: 10px;
+    color: #9261aa;
+    line-height: 1.2;
+    letter-spacing: .02em;
+    vertical-align: middle;
+    max-height: none;
+    overflow: inherit;
+    font-family: inherit;
+    display: inline-block;
+    margin: inherit;
+}
+.pages__title-right a.back-home{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.pages__title-right .Ourteacher{
+    color: white;
+    text-decoration: none;
+}
+.pages__title-right .Ourteacher:hover span{
+    color: rgb(156, 95, 156);
+    margin-left: 10px; 
+    font-size: 1.2rem;
+}
+.pages__title i:not(.back-home i){
+    font-size: 10px;
+    margin: 6px 0;
+    margin-left: 10px;
+}
+.name-details{
+    color: white;
+}
+@media only screen and (max-width: 780px){
+    .header__top{
+        flex-wrap: wrap;
+    }
+    .header__top-left{
+        text-align: left;
+    }
+    .header__top >*{
+        width: 100%;
+        padding-left: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    .header__top-left::after,.header__top-right::after{
+        display: none;
+    }
+}
+
+
+/* container */
+select{
+    border: 0;
+    background: transparent;
+    color: #ffff;
+    padding-right: 7px;
+}
+.catalog-filter-subject{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background: #30a8cc;
+    color: white;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.catalog-filter-subject p{
+margin-bottom: 0;
+}
+.catalog-filter-subject span{
+    margin-left: auto;
+    margin-top: 10px;
+    color: #333;
+}
+#menu{
+    color: #fff;
+}
+#menu option{
+    color: #333;
+}
+.teacher-list{
+    margin-top: 50px;
+}
+.teacher-item{
+    width:100%;
+    background: #f8f8f8;
+}
+.teacher-list .row>*{
+    margin-bottom: 20px;
+}
+
+.teacher-avatar{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+.teacher-avatar img{
+    position: relative;
+    height: 255px;
+    width: 100%;
+}
+    
+.teacher-avatar_hover{
+    position: absolute;
+    z-index: 1;
+    top:0px;
+    bottom: 0px;
+    left:0;
+    right:0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #9261aa;
+}
+.teacher-avatar_hover:hover{
+    opacity: 0.9;
+    transition: 0.5s;
+}
+.social-link a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.social-link a{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: #30a8cc;
+    line-height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+}
+.teacher-avatar_hover .social-link{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 3;
+    top:45%;
+    left: 22%;
+}
+
+.teacher-info{
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 6px;
+}
+.teacher-info a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #222;
+}
+.teacher-info p{
+    font-size: 0.8rem;
+    color: #868686;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+} 
+.teacher-info a:visited{
+    text-decoration: none;
+    font-size: 18px;
+    color: #222222;
+}
+.teacher-info a:hover{
+    color: rgb(153, 107, 151);
+    text-decoration: none;
+}
+.item-defauld{
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    margin: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+.item-defauld ul li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #f7f7f7;
+    color: #222222;
+}
+.item-defauld ul .col-item-defauld{
+    width: 80px;
+}
+.item-defauld ul .col-item-defauld:hover{
+    background-color: #9261aa;
+    color:#fff;
+}
+.item-defauld ul .col1-item-defauld:hover{
+    background-color: #ffbd33;
+}
+.item-defauld ul .col1-item-defauld{
+    color: #222222;
+}
+.item-defauld ul li .one-col{
+    color: #fff;
+}
+.item-defauld ul li .two-col{
+    color: #fff;
+}
+.item-defauld ul li:hover{
+    background-color: #ffbd33;
+}
+.item-defauld ul li a:visited{
+    color: #222222;
+}
+.item-defauld ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+h2{
+    font-family: 'Oswald',sans-serif;
+}
+h3{
+    font-family: 'Oswald',sans-serif;
+}
+h5{
+    font-family: 'Oswald',sans-serif;
+}
+@media only screen and (max-width: 780px){
+    .header__top{
+        flex-wrap: wrap;
+    }
+    
+    .header__top-left{
+        text-align: left;
+    }
+    .header__top .header__top-left{
+        width: 100%!important;
+        padding-left: 1.5rem;
+    }
+    .header__top-right span{
+       max-width: 100%;
+    }
+    .header__top-left::after,.header__top-right::after{
+        display: none;
+    }
+}
+@media  screen and (max-width: 200px) {
+    .header__top-left p{
+        font-size: 26px;
+    }
+    .header__top-right span{
+        font-size: 18px;
+    }
+}
+
+
+
+
+

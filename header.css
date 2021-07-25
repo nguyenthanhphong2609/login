@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* container-fluid */
+.container-fluid{
+    margin: 0;
+    padding: 30px 0;
+}
+.pages__title{
+    background-image: url("./images/bg-page-title.jpg");
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+}
+.pages__title-top{
+    width: 100%;
+    display: flex;
+    align-items:flex-end;
+    color: white;
+    margin-top: 0;
+}
+.pages__title-left{
+    position: relative;
+    z-index: 2;
+    height: 70px;
+    width:30% ;
+    line-height: 70px;
+    text-align: center;
+    padding-right: 4rem;
+    background-color: rgb(166, 92, 235);
+    font-family: 'oswald',sans-serif;
+}
+.pages__title-left::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 100%;
+    border-left: solid 40px rgb(166, 92, 235);
+    border-top: solid 70px transparent;
+}
+.pages__title-right::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 100%;
+    border-left: solid 40px #ffbd33;
+    border-top: solid 50px transparent;
+}
+.pages__title-left p{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'oswald',sans-serif;
+}
+.pages__title-right{
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    width: 55%;
+    padding-left: 3rem;
+    background-color: #ffbd33;
+    font-family: 'Roboto',sans-serif;
+}
+.pages__title-right span{
+    font-size: 15px;
+    margin-left: 10px;
+    color: #9261aa;
+    line-height: 1.2;
+    letter-spacing: .02em;
+    vertical-align: middle;
+    max-height: none;
+    overflow: inherit;
+    font-family: inherit;
+    display: inline-block;
+    margin: inherit;
+}
+.pages__title-right a.back-home{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.pages__title-right .Ourteacher{
+    color: white;
+    text-decoration: none;
+}
+.pages__title-right .Ourteacher:hover span{
+    color: rgb(156, 95, 156);
+    margin-left: 10px; 
+    font-size: 1.2rem;
+}
+.pages__title i:not(.back-home i){
+    font-size: 10px;
+    margin: 6px 0;
+    margin-left: 10px;
+}
+
+.name-details{
+    color: white;
+}
+@media only screen and (max-width: 780px){
+    .header__top{
+        flex-wrap: wrap;
+    }
+    .header__top-left{
+        text-align: left;
+    }
+    .header__top >*{
+        width: 100%;
+        padding-left: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    .header__top-left::after,.header__top-right::after{
+        display: none;
+    }
+}

@@ -1,0 +1,261 @@
+p {
+  font-family: "Roboto";
+  color: #868585;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+#top {
+  height: 50px;
+  background-color: #30a8cc;
+}
+#top p {
+  margin-top: 13px;
+  margin-left: 00px;
+  font-size: 12px;
+  color: white;
+}
+#top i {
+  color: gray;
+  font-size: 18px;
+}
+#top i:hover {
+  color: white;
+}
+#subjects {
+  border: none;
+  color: white;
+}
+option {
+  color: #333;
+}
+.course-space {
+  margin-top: 10px;
+  height: 2px;
+  width: 40px;
+  background-color: orange;
+}
+#detail {
+  padding-top: 20px;
+}
+#course-button {
+  width: 150px;
+  height: 40px;
+}
+#course-detail {
+  margin-bottom: 20px;
+}
+.image-box {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.image-box span {
+  position: absolute;
+  background-color: gold;
+  width: 40px;
+  height: 20px;
+  top: 30px;
+  right: 10px;
+  text-align: center;
+  color: white;
+  font-family: "Oswald";
+  z-index: 2;
+}
+
+#span__white {
+  background-color: #c5c5c5;
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 100;
+}
+.image-box img {
+  transform: scale(1.05);
+  transition: 1s;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.row:hover .image-hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.image-hover {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5 ease-out;
+  background-color: #9261aa;
+}
+.image-hover .review {
+  color: white;
+  position: absolute;
+  z-index: 3;
+  top: 40%;
+  left: 25%;
+}
+#course:hover {
+  background-color: #ebd4f7;
+}
+#course-button {
+  background-color: #30a8cc;
+  height: 50px;
+  border: #30a8cc;
+}
+#course-button:hover {
+  background-color: #9261aa;
+}
+.course-name a {
+  color: black;
+}
+
+.course-name a:hover {
+  color: #9261aa;
+}
+#course-instructor {
+  padding-top: 20px;
+}
+#course-instructor img {
+  border-radius: 50%;
+}
+.hidden_row {
+  display: none;
+}
+.row i {
+  color: orange;
+}
+.course__icon {
+  float: right;
+  display: flexbox;
+}
+#left__col {
+  background-image: url("./HTML/1.jpg");
+  height: max-content;
+}
+.row {
+  max-width: 1200px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+.row #course1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: none;
+}
+.row #course1:hover {
+  background-color: aliceblue;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  margin: 2px;
+  width: 47px;
+  height: 36px;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.pagination .pre-nex {
+  background-color: #f7f7f7;
+  color: #444444;
+  width: fit-content;
+  height: 36px;
+}
+.pre-nex:hover {
+  background-color: #9261aa;
+  color: white;
+  width: fit-content;
+  height: 36px;
+}
+.pagination .active {
+  background-color: #ffbd33;
+  color: white;
+}
+.non-active {
+  background-color: #f4f4f4;
+  color: #444444;
+}
+.non-active:hover {
+  background-color: #ffbd33;
+  color: white;
+}
+
+body {
+  font-family: Roboto;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+}
+h1 {
+  font-family: Oswald;
+  line-height: 48px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+}
+h2 {
+  font-family: Oswald;
+  line-height: 39px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 29px;
+  color: black;
+}
+h3 {
+  font-family: Oswald;
+  line-height: 29px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+}
+h4 {
+  font-family: Oswald;
+  line-height: 23px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  color: black;
+}
+h5 {
+  font-family: Oswald;
+  line-height: 17px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+}
+h6 {
+  font-family: Oswald;
+  line-height: 15px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 11px;
+}
+/* {
+  font-family: Oswald;
+}
+ {
+  font-family: Roboto;
+}
+ {
+  font-family: Oswald;
+} */

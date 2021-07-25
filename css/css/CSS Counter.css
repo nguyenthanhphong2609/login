@@ -1,0 +1,40 @@
+.counter{
+text-align:center
+}
+.counter .counter-icon{
+-webkit-border-radius:50%;
+-webkit-background-clip:padding-box;
+-moz-border-radius:50%;
+-moz-background-clip:padding;
+border-radius:50%;
+background-clip:padding-box;
+width:80px;
+height:80px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:38px
+}
+.counter .counter-icon i{
+display:block;
+font-size:32px;
+line-height:80px;
+color:#fff
+}
+.counter .counter-icon img{
+width:40px;
+height:40px;
+margin:auto;
+margin-top:20px
+}
+.counter span{
+display:inline-block
+}
+.counter:hover .counter-icon{
+-webkit-transition:all .3s;
+-moz-transition:all .3s;
+transition:all .3s;
+background-color:transparent!important
+}
+.counter:hover .counter-icon i{
+color:inherit!important
+}

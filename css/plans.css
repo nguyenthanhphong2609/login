@@ -1,0 +1,67 @@
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+#top {
+  height: 50px;
+  background-color: #30a8cc;
+}
+#top p {
+  margin-top: 13px;
+  margin-left: 00px;
+  font-size: 12px;
+  color: white;
+}
+#top i {
+  color: gray;
+  font-size: 18px;
+}
+#top i:hover {
+  color: white;
+}
+#subjects {
+  border: none;
+  color: white;
+}
+option {
+  color: #333;
+}
+option:hover{
+  background-color: #686868;
+}
+.plan__categories h4{
+    color: black;
+    margin: 0;
+}
+.plan__categories .separate{
+    width: 40px;
+    height: 20px;
+    border-bottom: solid 3px #FFBD88;
+    margin-bottom: 30px;
+}
+.plan__list{
+  width: 100%;
+  border: solid 1px #686868;
+}
+#id{
+  width: 10%;
+}
+#course{
+  width: 60%;
+}
+#price{
+  width:30%;
+}
+table{
+  border: #686868 solid 1px;
+  font-family: "Oswald",sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+tr{
+  background-color: #f0f0f0;
+}
+td:hover{
+  color:#9261aa;
+}

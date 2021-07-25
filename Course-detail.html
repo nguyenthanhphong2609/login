@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
+	  <link rel='stylesheet' href='.\css\font-awesome-4.5.0-master\css\font-awesome.css'/>
+	  <link rel='stylesheet' href='.\css\bootstrap-3.3.2-dist\css\bootstrap.css'/>
+	  <link rel='stylesheet' href='./css/css/framework.css'/> 
+    <link rel='stylesheet' href='./css/css/style.css'/> 
+    
+    <!-- link stylesheet for home -->
+    <link rel = "stylesheet" href = "./assets/css/base.css"></link>
+    <link rel = "stylesheet" href = "./assets/css/Home/home.css"></link>
+    <link rel = "stylesheet" href = "./assets/css/Home/homeresponsive.css"></link>
+    <script src = "assets/js/home.js"></script>
+    <!-- link stylesheet for coursedetail -->
+    <link rel='stylesheet' href='./css/Course-detail.css'/> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+    </style>
+	<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C500%2C700%2C900%2C100italic%2C300italic%2C400italic%2C500italic%2C700italic%2C900italic%7COswald%3A300%2C400%2C700&#038;ver=1592623596"/>
+    <script type="text/javascript">
+    function showHideRow(row) {
+        $("#" + row).toggle();
+    }
+    </script>
+</head>
+<body>
+     <!-- header -->
+     <header class="header">
+      <div class="row-exe">
+        <!-- menu toggle -->
+        <div class="menu__toggle">
+          <i class="fa fa-bars"></i>
+        </div>
+        <!-- header logo -->
+        <div class="header__logo">
+          <a href="index.html" class="header__logo-link">
+            <img
+              src="./img/Picture8.png"
+              alt="Ex_Logo"
+              class="header__logo-img"
+            />
+          </a>
+        </div>
+        <!-- menu -->
+        <div class="header__menu">
+          <div class="header__menu-details">
+            <!-- nav -->
+            <nav class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a href="index.html" class="header__nav-link">HOME</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="blog.html" class="header__nav-link">BLOG</a>
+                </li>
+                <li class="header__nav-item">
+                  <a
+                    href="allcourse1.html"
+                    class="header__nav-link"
+                  >
+                    <span>COURSE</span>
+                    <i class="fa fa-caret-down"></i>
+                  </a>
+                  <!-- sub menu -->
+                  <ul class="nav-child__list">
+                    <li class="nav-child__item">
+                      <a
+                        href="course_business.html"
+                        class="nav-child__link"
+                      >
+                        <i class="fa fa-chevron-right"></i>
+                        <span>BUSINESS MANAGEMENT</span>
+                      </a>
+                    </li>
+                    <li class="nav-child__item">
+                      <a
+                        href="course_graphic.html"
+                        class="nav-child__link"
+                      >
+                        <i class="fa fa-chevron-right"></i>
+                        <span>GRAPHIC DESIGN</span>
+                      </a>
+                    </li>
+                    <li class="nav-child__item">
+                      <a
+                        href="course_law.html"
+                        class="nav-child__link"
+                      >
+                        <i class="fa fa-chevron-right"></i>
+                        <span>LAW ECONOMIC</span>
+                      </a>
+                    </li>
+                    <li class="nav-child__item">
+                      <a
+                        href="course_mobile.html"
+                        class="nav-child__link"
+                      >
+                        <i class="fa fa-chevron-right"></i>
+                        <span>MOBILE APPS DEVELOP</span>
+                      </a>
+                    </li>
+                    <li class="nav-child__item">
+                      <a
+                        href="course_web design.html"
+                        class="nav-child__link"
+                      >
+                        <i class="fa fa-chevron-right"></i>
+                        <span>WEB DESIGN</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="header__nav-item">
+                  <a href="event.html" class="header__nav-link">EVENTS</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="teacher-details.html" class="header__nav-link">TEACHERS</a>
+                </li>
+                <li class="header__nav-item">
+                  <a
+                    href="About us.html"
+                    class="header__nav-link"
+                    >ABOUT</a
+                  >
+                </li>
+                <li class="header__nav-item">
+                  <a
+                    href="Contact us.html"
+                    class="header__nav-link"
+                    >CONTACT</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <!-- menu icon -->
+            <div class="menu__icon">
+              <div class="search__icon">
+                <i class="fas fa-search"></i>
+              </div>
+              <div class="lock__icon" id="show-login">
+                <i class="fas fa-user"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- mobile nav -->
+        <div class="header-mobile__nav">
+          <!-- search bar -->
+          <form action="" class="mobile__searchbar">
+            <input type="text" placeholder="Search..." />
+            <button class="btn btn-searchbar">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+          <!-- mobile nav -->
+          <nav class="mobile-nav">
+            <ul class="mobile__nav-list">
+              <li class="mobile__nav-item">
+                <a href="index.html" class="mobile__nav-link">HOME</a>
+              </li>
+              <li class="mobile__nav-item">
+                <a href="blog.html" class="mobile__nav-link">BLOG</a>
+              </li>
+              <li class="mobile__nav-item">
+                <button class="mobile__nav-link">
+                  <span>COURSE</span>
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+                <!-- second menu -->
+                <ul class="mobile__nav-child-list">
+                  <li class="mobile__nav-child-item">
+                    <a
+                      href="course_business.html"
+                      class="mobile__nav-child-link"
+                      >BUSINESS MANAGEMENT</a
+                    >
+                  </li>
+                  <li class="mobile__nav-child-item">
+                    <a
+                      href="course_graphic.html"
+                      class="mobile__nav-child-link"
+                      >GRAPHIC DESIGN</a
+                    >
+                  </li>
+                  <li class="mobile__nav-child-item">
+                    <a
+                      href="course_law.html"
+                      class="mobile__nav-child-link"
+                      >LAW ECONOMIC</a
+                    >
+                  </li>
+                  <li class="mobile__nav-child-item">
+                    <a
+                      href="course_mobile.html"
+                      class="mobile__nav-child-link"
+                      >MOBILE APPS DEVELOP</a
+                    >
+                  </li>
+                  <li class="mobile__nav-child-item">
+                    <a
+                      href="course_web design.html"
+                      class="mobile__nav-child-link"
+                      >WEB DESIGN</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="mobile__nav-item">
+                <a href="event.html" class="mobile__nav-link">EVENTS</a>
+              </li>
+              <li class="mobile__nav-item">
+                <a href="teacher.html" class="mobile__nav-link">TEACHERS</a>
+              </li>
+              <li class="mobile__nav-item">
+                <a
+                  href="About us.html"
+                  class="mobile__nav-link"
+                  >ABOUT</a
+                >
+              </li>
+              <li class="mobile__nav-item">
+                <a
+                  href="Contact us.html"
+                  class="mobile__nav-link"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- login form -->
+  <div class="hero">
+      <div class="form-box">
+        <div class="close-btn">&times;</div>
+        <div class="button-box">
+          <div id="button"></div>
+          <button type="button" class="toggle-button" onclick="login()">
+            Log in
+          </button>
+          <button type="button" class="toggle-button" onclick="register()">
+            Register
+          </button>
+        </div>
+        <div class="social-icons">
+          <img src="./Test/Test/Facebook.png" />
+          <img src="./Test/Test/Twitter.png" />
+          <img src="./Test/Test/google.png" />
+        </div>
+        <form id="login" class="input-group">
+          <input
+            type="text"
+            class="input-field"
+            placeholder="User Id"
+            required
+          />
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Enter Password"
+            required
+          />
+          <input type="checkbox" class="check-box" />
+          <span class="login-form-span">Remember Password</span>
+          <button type="submit" class="submit-button">Login</button>
+        </form>
+        <form id="register" class="input-group">
+          <input
+            type="text"
+            class="input-field"
+            placeholder="User Id"
+            required
+          />
+          <input
+            type="email"
+            class="input-field"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Enter Password"
+            required
+          />
+          <input type="checkbox" class="check-box" />
+          <span class="login-form-span"
+            >I agree to the tern & conditions</span
+          >
+          <button type="submit" class="submit-button">Register</button>
+        </form>
+      </div>
+    </div>
+    <!-- overlay -->
+    <div class="overlay"></div>
+    <!-- ------------------- -->
+    <!-- enroll form -->
+   <div class="enroll">
+      <div class="enroll-box">
+        <div class="close-enroll">&times;</div>
+        <h2>BECOME OUR STUDENT!</h2>
+        <form id="enroll-name" class="enroll-input">
+          <h5 class= "enroll-attribute">YOUR NAME:</h5>
+          <input
+            type="text"
+            class="input-field"
+            placeholder="&emsp;Your Full Name"
+            required
+          />
+          <h5 class= "enroll-attribute">YOUR PHONE NUMBER:</h5>
+          <input
+            type="text"
+            class="input-field"
+            placeholder="&emsp;Your Phone Number"
+            required
+          />
+          <h5 class= "enroll-attribute">YOUR EMAIL:</h5>
+          <input
+            type="text"
+            class="input-field"
+            placeholder="&emsp;Your Email"
+            required
+          />
+          <h5 class= "enroll-attribute">COURSE YOU CHOOSE:</h5>
+          <select id = "subjects" onChange="SelectRedirect()">
+            <option value = "1">ALL COURSE</option>
+            <option value = "2">BUSINESS MANAGEMENT (8)</option>
+            <option value = "3">GRAPHIC DESIGN (6)</option>
+            <option value = "4">LAW ECONOMIC (7)</option>
+            <option value = "5">MOBILE APPS DEVELOP (6)</option>
+            <option value = "6">SEO COURSE (8)</option>
+            <option value = "7">SOCIAL MEDIA (7)</option>
+            <option value = "8">WEB DESIGN (7)</option>
+          </select>
+            <a href="./index.html"><button type="submit" class="submit-button">I WANT TO ENROLL!</button></a>
+        </form>
+        <a class = "email-box"href="mailto:im.daocuong@gmail.com"><i class="fas fa-paper-plane"></i></div>
+        </div>
+      </div>
+    <!-- overlay -->
+    <div class="overlay"></div>
+    <!-- ------------------- -->
+    <!-- small info -->
+    <div class="small-info">
+      <div class="row-exe">
+        <a href="mailto:infoacademica@gmail.com" class="small-info__email">
+          <i class="fab fa-telegram-plane"></i>
+          <span>EXCELLENTCOACHING@gmail.com</span>
+        </a>
+        <p class="calendar-info">
+          <i class="far fa-clock"></i>
+          <span>MON - SAT: 9:00 - 18:00</span>
+        </p>
+      </div>
+    </div>
+  <!--headerbanner-->
+    <section id="page-title" class="page-title-wrap page-title-margin">
+        <div class="page-title-parallax" style="background-image: url(./img/7.jpg);background-position:center center;"></div>
+        <div class="container">
+            <div class="page-title-inner pt-bottom">
+                <div class="m-title">
+                    <h2 class="p-font">Course</h2>
+                </div>
+                <div class="breadcrumbs-wrap">
+                    <div class="breadcrumbs-inner">
+                        <ul class="breadcrumbs">
+                            <li><a href="./index.html"<a class="home" ><i class="fa fa-home"></i></a></li>
+                                <li><a href="./allcourse1.html"><h1 class = "banner-link" style="color: white;">Course</h1></a></li></ul>   
+                                <div class = "banner-link_child"><h1><i class="fas fa-angle-right" style = "color: white;margin: 20px;font-size: small;"></i>THE SECRETS OF ECONOMIC</h1></div>
+                        </ul> 
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!--detailcourse-->
+    <div class="container" align=center style = "width: 1200px;"">
+        <div class="row" id="heading" align = left>
+            <div class="col-sm-12" style = "padding-left: 10px;">
+                <h2>THE SECRETS OF ECONOMIC</h2>
+                <div class = "course-space"></div>
+            </div>
+        </div>
+        <div class="row" id="body" align = left>
+            <div class = "col-sm-12 col-md-8" style="padding-top: 20px;">
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                      <img src="./assets/image/coursedetail/coursedetail1.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                      <img src="./assets/image/coursedetail/coursedetail2.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                      <img src="./assets/image/coursedetail/coursedetail3.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="./assets/image/coursedetail/coursedetail4.jpg" style="width:100%">
+                      </div>
+                    <div class="mySlides">
+                    <img src="./img/5.jpg" style="width:100%">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                  </div>
+                <br>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                  </div>
+                <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+
+                    function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                    }
+
+                    function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                    }
+
+                    function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) {slideIndex = 1}    
+                    if (n < 1) {slideIndex = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                    }
+                </script>
+                <div class = "row" id = "instructor">
+                    <div class = "col-sm-12" style = "padding-left: 10px;">
+                        <h2>ABOUT INSTRUCTOR</h2>
+                        <div style = "width : 40px; height: 3px; background-color: orange; display: inline-block; margin-bottom: 20px;"></div>
+                    </div>
+                </div>
+                <!-- xóa col-sm-12  của course review và instructor -->
+                    <div class = "" style = "margin-top: 30px; padding-left: 10px;">
+                        <div class = "instructor">
+                            <img id = "instructor_img" src = "./img/teacher1.jpg" >
+                            <div class = "instructor_info">
+                                <a href=" " style = "font-size:20px; color: #FF9800;font-family: 'Oswald', sans-serif;"><h3>ASHRAF BADRY</h3></a>
+                                <p>Science professor</p>
+                                <p><i class="fas fa-phone-alt"></i>   0987957632 - 0327280697</p>
+                                <p><i class="fas fa-envelope"></i>   im.daocuong@gmail.com</p>
+                                <div class="social-network">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/" alt="facebook" target="_blank">
+                                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/" alt="Twitter" target="_blank">
+                                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/" alt ="instagram" target="_blank">
+                                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.google.com.vn/" alt ="google" target="_blank">
+                                                <i class="fa fa-google" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class = "row">
+                    <div class = "" style = "margin-top: 30px; padding-left: 10px;">
+                        <h2>COURSE REVIEW</h2>
+                        <div style = "width : 40px; height: 3px; background-color: orange; display: inline-block; margin-bottom: 20px;"></div>
+                        <p>This course offers a comprehensive, no-nonsense guide to economics. Topics include the production, distribution and consumption of goods and services as well as economic growth and activity, employment, the market economy, inflation, wealth, and income distribution. You will understand the inter-related studies of economics such as microeconomics and macroeconomics. On completing this course you will know the principles involved in economics.  It is suitable for people studying business and economics or anybody with an interest in economics and current affairs.</p>
+                    </div>
+                </div>
+                <!--  -->
+                <div class = "row">
+                    <div class = "col-sm-12" style = "margin-top: 30px; padding-left: 10px;">
+                        <h2>COURSE SUMMARY</h2>
+                        <div style = "width : 40px; height: 3px; background-color: orange; display: inline-block; margin-bottom: 20px;"></div>
+                        <p><i class="fas fa-check"></i> In this course, you will be aware of the the characteristics of wants, resources, the scarcity of these resources, our choices, costs and economic systems.</p>
+                        <p><i class="fas fa-check"></i> You will gain a good knowledge of economic activity through investment, government, exports, income, consumers, budgetary action, exchange rates and many other activities.</p>
+                        <p><i class="fas fa-check"></i> You will know all about economic growth, employment, competitive markets, inflation, wealth and income distribution.</p>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "col-sm-12" style = "margin-top: 30px; padding-left: 10px;">
+                        <h2>CURRICULUM</h2>
+                        <div style = "width : 40px; height: 3px; background-color: orange; display: inline-block; margin-bottom: 20px;"></div>
+                        <div id="wrapper">
+      
+                            <table border = 1 class="table table-hover" align=center cellpadding=10  style = "font-size: 17px;">
+                      
+                                <tr>
+                                    <th colspan="4" class="bg-warning">SECTION 1: INTRODUCTION TO HANDSTANDS</th>
+                                </tr>
+                      
+                                <tr onclick="showHideRow('hidden_row1');">
+                                    <td>WELCOME TO THE COURSE!</td>
+                                    <td><i class="far fa-play-circle"></i>  PREVIEW</td>
+                                    <td>20 MINUTES</td>
+                                    <td>VIDEO</td>
+                                </tr>
+                                <tr id="hidden_row1" class="hidden_row">
+                                    <td colspan=4>
+                                        <p>Welcome to your firs’t video tutorial. This video will start with a simple introduction. Then, You will open up google cause I’ll show you where you can download the blender software and which version of it will we be using in the entire course period</p>
+                                        <p><b>Note:</b> The download link is available with the lecture, plus the .pdf file is also included for you to download if you still need help downloading the software.</p>
+                                        <iframe max-width="500px" height="auto" src="https://www.youtube.com/embed/zC1Fzn0kStI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </td>
+                                </tr>
+                      
+                                <tr onclick="showHideRow('hidden_row2');">
+                                    <td>USING THE EXERCISE FILES AND LOADING FONTS</td>
+                                    <td><i class="far fa-file-alt" title="PDF FILES"></i></td>
+                                        
+                                    <td>450 PAGES</td>
+                                    <td>FREE</td>
+                                </tr>
+                                <tr id="hidden_row2" class="hidden_row">
+                                    <td colspan=4>
+                                        <p>An InDesign template is a beautiful thing. If you find yourself creating the same kind of document over and over again, a template can save you a tremendous amount of time. Working with other designers? A template can help make sure you’re all on the same page. And if you need to get clients up and running on their own, a template can provide the guidance they need to execute a design successfully.</p>
+                                        <a href = "./HTML/Adobe-Intro-to-Scripting-1.pdf">Download File</a>
+                                    </td>
+                                </tr>
+                      
+                                <tr onclick="showHideRow('hidden_row3');">
+                                    <td>SAVING TIME WITH GREAT TEMPLATE</td>
+                                    <td><i class="far fa-file-powerpoint" title="SEMINAR"></i></td>
+                                    <td>2H 30M</td>
+                                    <td>SEMINAR</td>
+                                </tr>
+                                <tr id="hidden_row3" class="hidden_row">
+                                    <td colspan=4>
+                                        <p>Saving time with a great template provides you with in-depth training on Design. Taught by Anne-Marie Concepción as part of the Designing Templates with InDesign</p>
+                                        <p>By building in the power tools you need for production—flexible master pages, logical layers, object styles, libraries and snippets, and styles—you’ll have a template that prepares you for success</p>
+                                    </td>
+                                </tr>
+                      
+                                <tr onclick="showHideRow('hidden_row4');">
+                                    <td>CREATING A TEMPLATE FROM A PDF</td>
+                                    <td><i class="fas fa-pen" TITLE = "ACTIVITY"></i></td>
+                                    <td>1H 30M</td>
+                                    <td>ACTIVITY</td>
+                                </tr>
+                                <tr id="hidden_row4" class="hidden_row">
+                                    <td colspan=4>
+                                        <P>Templates are a way your small business can save time. When you have documents that you use frequently, such as presentations, minutes, forms and expense reports, you can create them with a template that is already pre-formatted to your specifications. A template also gives your documents a uniform look that can be modified to accommodate your specific needs. Sometimes you may have a PDF document that features a format you wish to use more than once. You can convert it to a Word template so you can use this design as often as necessary.</P>
+                                    </td>
+                                </tr>
+                      
+                                <tr onclick="showHideRow('hidden_row5');">
+                                    <td>SETTING UP LAYERS TO A STREAMLINE PRODUCTION</td>
+                                    <td><i class="fas fa-graduation-cap" TITLE="QUIZ"></i></td>
+                                    <td>1H 30M</td>
+                                    <td>QUIZ</td>
+                                </tr>
+                                <tr id="hidden_row5" class="hidden_row">
+                                    <td colspan=4>
+                                        <P>Setting up layers to streamline production provides you with in-depth training on Design. Photoshop CC now includes Generator, a feature that could mean “no more slices”. Ever. Generator scans your layer names looking for file extensions. Once it finds one it understands, it takes all the pixels it can find on that layer (or, as you will see later, layer group) and saves them to a file of the specified kind</P>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="wrapper" style = "margin-top: 30px;">
+      
+                            <table border = 1 class="table table-hover" align=center cellpadding=10 style = "font-size: 17px;">
+                      
+                                <tr>
+                                    <th colspan="4" class="bg-warning">SECTION 2: CREATING A SIMPLE MASTER PAGE STRATEGY</th>
+                                </tr>
+                      
+                                <tr onclick="showHideRow('hidden_row6');">
+                                    <td>ADDING AND ORGANIZING COLOR SWATCHES</td>
+                                    <td><i class="fas fa-file-video"></i>  PREVIEW</td>
+                                    <td>1H 20M</td>
+                                    <td>VIDEO</td>
+                                </tr>
+                                <tr id="hidden_row6" class="hidden_row">
+                                    <td colspan=4>
+                                        <p>While your wrists will certain get stronger from practice and grow accustomed to the stress of the skill, a basic amount of wrist strengthening exercises for several weeks can only help things. I’d recommend working wrist curls and reverse wrist curls for around 6-10 reps for 3 sets. I also strongly recommend trying some sledgehammer levering. Work in 2-3 sets of 3-5 reps. In particular, exercises 1 and 3 are fantastic for building wrist strength and they are much harder than they look! Start with them to get the hang of sledgehammer work before you progress to the other two exercises. I don’t want somebody putting a hole through their floor or their face because they rushed things!/p>
+                                    </td>
+                                </tr>
+                      
+                                <tr onclick="showHideRow('hidden_row7');">
+                                    <td>THE LOGO DESIGN BRIEFING WITH THE CLIENT</td>
+                                    <td><i class="fas fa-lock"></i>  PREVIEW</td>
+                                        
+                                    <td>1H 20M</td>
+                                    <td>VIDEO</td>
+                                </tr>
+                                <tr id="hidden_row7" class="hidden_row">
+                                    <td colspan=4>
+                                        <p>The content of this lesson is locked. To unlock it, you need to Buy this Course.</p>
+                                    </td>
+                                </tr>
+                      
+                                <tr onclick="showHideRow('hidden_row8');">
+                                    <td>MIDTERM TEST</td>
+                                    <td><i class="far fa-check-circle"></i></td>
+                                    <td>1H</td>
+                                    <td>QUIZ</td>
+                                </tr>
+                                <tr id="hidden_row8" class="hidden_row">
+                                    <td colspan=4>
+                                        <p>This test will reveal how well you are acquiring the new material based on a short test of twenty questions and a brief written assignment.</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "col-sm-12" style = "margin-top: 30px; padding-left: 0px;">
+                        <div class = "col-sm-12" >
+                            <h2>REVIEW STATISTIC</h2>
+                            <div style = "width : 40px; height: 3px; background-color: orange; display: inline-block; margin-bottom: 20px;"></div>
+                        </div>
+                        <div class = "col-sm-4" s >
+                            <div class ="rating__box" >
+                                <p class = "average">4,5</p>
+                                <div class="rate">
+                                    <input type="radio" id="star5" name="rate" value="5"/>
+                                    <label for="star5" title="text">5 stars</label>
+                                    <input type="radio" id="star4" name="rate" value="4"/>
+                                    <label for="star4" title="text">4 stars</label>
+                                    <input type="radio" id="star3" name="rate" value="3"/>
+                                    <label for="star3" title="text">3 stars</label>
+                                    <input type="radio" id="star2" name="rate" value="2"/>
+                                    <label for="star2" title="text">2 stars</label>
+                                    <input type="radio" id="star1" name="rate" value="1"/>
+                                    <label for="star1" title="text">1 star</label>
+                                </div>
+                                <p style = "text-align: center; font-size: small;">1000 ratings</p>
+                            </div>  
+                        </div>
+                        <div class = "col-sm-8" style = "margin-top: 10px;">
+                            <div class="col-sm-12">
+                                <div class="side">
+                                    <div>5 star</div>
+                                </div>
+                                <div class="middle">
+                                    <div class="bar-container">
+                                      <div class="bar-5"></div>
+                                    </div>
+                                </div>
+                                <div class="side right">
+                                    <div>63</div>
+                                </div>  
+                                <div class="side">
+                                    <div>4 star</div>
+                                </div>
+                                <div class="middle">
+                                    <div class="bar-container">
+                                        <div class="bar-4"></div>
+                                    </div>
+                                </div>
+                                <div class="side right">
+                                    <div>63</div>
+                                </div>
+                                <div class="side">
+                                    <div>3 star</div>
+                                </div>
+                                <div class="middle">
+                                    <div class="bar-container">
+                                        <div class="bar-3"></div>
+                                    </div>
+                                </div>
+                                <div class="side right">
+                                    <div>15</div>
+                                </div>
+                                <div class="side">
+                                    <div>2 star</div>
+                                </div>
+                                <div class="middle">
+                                    <div class="bar-container">
+                                        <div class="bar-2"></div>
+                                </div>
+                                </div>
+                                <div class="side right">
+                                    <div>6</div>
+                                </div>
+                                <div class="side">
+                                    <div>1 star</div>
+                                </div>
+                                <div class="middle">
+                                    <div class="bar-container">
+                                        <div class="bar-1"></div>
+                                    </div>
+                                </div>
+                                <div class="side right">
+                                    <div>20</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row" style = "margin-bottom: 200px;"">
+                    <div class = "col-sm-12" style = "margin-top: 30px; padding-left: 10px;">
+                        <h2>2 REVIEWS FOR THIS COURSE</h2>
+                        <div style = "width : 40px; height: 3px; background-color: orange; display: inline-block; margin-bottom: 20px;"></div>
+                    </div>
+                    <div class = "col-12">
+                        <div class = "review_course">
+                            <div class  = "reviewer">
+                                <img class  = "reviewer_img" src = "./img/teacher3.jpg">
+                                <div class="review_info">
+                                    <div class = "name_date"><h4>COBUS BESTER&nbsp;||&nbsp;</h4><p>June 7, 2021</p>
+                                        <div class="review_rate">
+                                            <i class="fas fa-star" id = "on"></i>
+                                            <i class="fas fa-star" id = "on"></i>
+                                            <i class="fas fa-star" id = "on"></i>
+                                            <i class="fas fa-star" id = "on"></i>
+                                            <i class="fas fa-star" id = "off"></i>
+                                        </div>
+                                    </div>
+                                    <p class = "comments">A great short course to remind me of how to prioritise tasks</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class  = "reviewer">
+                                <img class  = "reviewer_img" src = "./img/teacher6.jpg">
+                                <div class="review_info">
+                                    <div class = "name_date"><h4>PHOEBE DAO&nbsp;||&nbsp;</h4><p>June 7, 2021</p>
+                                        <div class="review_rate">
+                                            <i class="fas fa-star"id = "on"></i>
+                                            <i class="fas fa-star" id = "on"></i>
+                                            <i class="fas fa-star"id = "on"></i>
+                                            <i class="fas fa-star"id = "on"></i>
+                                            <i class="fas fa-star"id = "on"></i>
+                                        </div>
+                                    </div>
+                                    <p class = "comments">Particularly useful following a career change with new challenges and has helped me focus on how to achieve what I need to on a daily basis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "col-sm-12 col-md-4" style="padding-left: 20px; padding-right:20px; margin-top: 20px;">
+                <div class = "row" id="table">
+                    <div class ="col-md-5 col-sm-6 col-xs-6" ><p>START ON</p></div>
+                    <div class ="col-md-7 col-sm-6 col-xs-6" id = "info" ><p>MARCH 21, 2021</p></div>
+                </div>
+                <div class = "row" id="table">
+                    <div class ="col-md-5 col-sm-6 col-xs-6" ><p>DURATION</p></div>
+                    <div class ="col-md-7 col-sm-6 col-xs-6" id = "info"><p>3M 2H</p></div>
+                </div>
+                <div class = "row" id="table">
+                    <div class ="col-md-5 col-sm-6 col-xs-6" ><p>LEVEL</p></div>
+                    <div class ="col-md-7 col-sm-6 col-xs-6" id = "info"><p>BEGINNER</p></div>
+                </div>
+                <div class = "row" id="table">
+                    <div class ="col-md-5 col-sm-6 col-xs-6" ><p>INSTUTION</p></div>
+                    <div class ="col-md-7 col-sm-6 col-xs-6" id = "info" ><p>ADAFA ACADEMIA</p></div>
+                </div>
+                <div class = "row" id="table">
+                    <div class ="col-md-5 col-sm-6 col-xs-6"><p>BRANCH</p></div>
+                    <div class ="col-md-7 col-sm-6 col-xs-6"id = "info"><p>OXFORD STREET</p></div>
+                </div>
+                <div class = "row" id="table">
+                    <div class ="col-md-5 col-sm-6 col-xs-6"><p>SCHEDULE</p></div>
+                    <div class ="col-md-7 col-sm-6 col-xs-6" id = "info"><a class = "schedule" href="Course Schedules.html" ><P>CLICK HERE FOR MORE INFOMATION</p></a></div>
+                </div>
+                <div class = "row" id="price__table">
+                  <div class = "col-12"><a class = "price" href = "plans.html"><p>PRICE</p></a></div>
+                </div>
+                <div class = "row" id="enroll__table">
+                    <div class = "col-12" id = "show-enroll"><p><a class = "enroll-link" ></a>ENROLL THIS COURSE</p></div>
+                </div>
+                <div class = "row" id="download__table">
+                  <div class = "col-12"><p><a href = "./img/The secrets of economic.pdf" target="_blank">DOWNLOAD FULL DETAIL</a></p></div>
+              </div>
+                <div class = "row" style = "margin-top: 60px;" id = "categories">
+                    <h2 style="padding-left: 0px;">CATEGORIES</h2>
+                    <div style = "width : 40px; height: 3px; background-color: orange; display: inline-block; margin-bottom: 20px;"></div>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            BUSINESS
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                          <div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;Business Finance
+                          </div>
+                          <div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;Business Analytics
+                          </div>
+                          <div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;Business Strategy
+                          </div><div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;Acounting
+                          </div>
+                          <div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;Digital Business
+                          </div>
+                          <div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;Leading People
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            SCIENCE
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                          <div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;Astronomy
+                          </div>
+                          <div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;Chemistry
+                          </div>
+                          <div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;Philosophy of Science
+                          </div><div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;Climate Science
+                          </div>
+                          <div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;Biomedical
+                          </div>
+                          <div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;Global
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            COMPUTER SCIENCE
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                          <div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;A Law Students' Toolkit
+                          </div>
+                          <div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;Interllectual Property Law
+                          </div>
+                          <div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;AI & Law
+                          </div><div class="accordion-body">
+                            <i class="fas fa-caret-right"></i>&emsp;Privacy
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                <div class = "row" style = "margin-top: 60px;margin-bottom: 200px;"id = "share">
+                    <h2 style="padding-left: 0px;">SHARE OUR COURSE</h2>
+                    <div style = "width : 40px; height: 3px; background-color: orange; display: inline-block; margin-bottom: 20px;"></div>
+                        <div class = "col-12" id= "card3">
+                          <div class = "share">
+                            <ul class = "share-blog">
+                                <li id="fb"><a href ="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li id="tw"><a href ="#"><i class="fab fa-twitter"></i></a></li>
+                                <li id="gg"><a href ="#"><i class="fab fa-google"></i></a></li>
+                                <li id="lk"><a href ="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li id="tb"><a href ="#"><i class="fab fa-tumblr"></i></a></span>
+                                <li id="pt"><a href ="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+             </div>       
+      </div>
+    </div>
+    <!-- movetotop -->
+    <div class="movetotop">
+      <a href="#top">
+        <i class="fas fa-arrow-circle-up"></i>
+      </a>
+  </div>
+  <div class="footer-img__larger">
+    <div class="footer-img__larger-inner">
+      <img src="" alt="" class="img-footer-larger" />
+      <div class="close__imglarger">
+        <i class="fas fa-times-circle"></i>
+      </div>
+      <div class="larger-btns">
+        <i class="fa fa-chevron-left btn-prev-larger"></i>
+        <i class="fas fa-th-large btn-larger-gallery"></i>
+        <i class="fa fa-chevron-right btn-next-larger"></i>
+      </div>
+    </div>
+    <div class="larger-list__img">
+      <div class="larger-list__img-inner">
+        <div class="close__larger-img">
+          <i class="fa fa-times"></i>
+        </div>
+        <div class="color-header"></div>
+        <div class="gallery-larger-img">
+          <img
+            src="assets/image/largerImg/largerimg1.jpg"
+            alt="footerimg1"
+          />
+          <img
+            src="assets/image/largerImg/largerimg2.jpg"
+            alt="footerimg2"
+          />
+          <img
+            src="assets/image/largerImg/largerimg3.jpg"
+            alt="footerimg3"
+          />
+          <img
+            src="assets/image/largerImg/largerimg4.jpg"
+            alt="footerimg4"
+          />
+          <img
+            src="assets/image/largerImg/largerimg5.jpg"
+            alt="footerimg5"
+          />
+          <img
+            src="assets/image/largerImg/largerimg6.jpg"
+            alt="footerimg6"
+          />
+          <img
+            src="assets/image/largerImg/largerimg7.jpg"
+            alt="footerimg7"
+          />
+          <img
+            src="assets/image/largerImg/largerimg8.jpg"
+            alt="footerimg8"
+          />
+          <img
+            src="assets/image/largerImg/largerimg9.jpg"
+            alt="footerimg9"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="row-exe">
+      <div class="footer-details">
+        <div class="footer__logo">
+          <a href="index.html" class="footer__logo-link">
+            <img
+              src="./img/Picture8.png"
+              
+              class="footer__logo-img"
+            />
+          </a>
+        </div>
+        <div class="footer__top">
+          <div class="footer__top-left">
+            <div class="footer__top-left-top">
+              <h4 class="footer__heading">ABOUT US</h4>
+              <p class="footer__desc">
+                We are an experienced team creating great, unique and easy
+                to set up templates for WordPress. We are a small, young and
+                super driven team that likes to make great things happen.
+              </p>
+            </div>
+            <div class="footer__top-left-bottom">
+              <h4 class="footer__heading">GET IN TOUCH</h4>
+              <ul class="footer-social__info">
+                <li class="footer-social__item">
+                  <i class="fa fa-map-marked"></i>
+                  <span>
+                    G5 Technology JSC, Room 1101, Glory Palace Apartment,
+                    Truong Thi Ward, Vinh City, Nghe An Province,
+                    VietNam(42000)
+                  </span>
+                </li>
+                <li class="footer-social__item">
+                  <i class="fa fa-phone"></i>
+                  <span>(+84) 388-969-888 </span>
+                </li>
+                <li class="footer-social__item">
+                  <i class="fa fa-envelope"></i>
+                  <span>EXCELLENTCOACHING@gmail.com</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__top-right">
+            <div class="footer__top-right-top">
+              <h4 class="footer__heading">NEWSLETTER</h4>
+              <form action="" class="footer-form">
+                <input type="text" placeholder="YOUR NAME" />
+                <input type="email" placeholder="EMAIL ADDRESS" />
+                <button type="button">THANK YOU</button>
+              </form>
+            </div>
+            <div class="footer__top-right-bottom">
+              <h4 class="footer__heading">OUR FLICKR</h4>
+              <div class="footer__gallery">
+                <img
+                  src="assets/image/largerImg/largerimg1.jpg"
+                  alt="footerimg1"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg2.jpg"
+                  alt="footerimg2"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg3.jpg"
+                  alt="footerimg3"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg4.jpg"
+                  alt="footerimg4"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg5.jpg"
+                  alt="footerimg5"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg6.jpg"
+                  alt="footerimg6"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg7.jpg"
+                  alt="footerimg7"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg8.jpg"
+                  alt="footerimg8"
+                />
+                <img
+                  src="assets/image/largerImg/largerimg9.jpg"
+                  alt="footerimg9"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="index.html" class="footer__nav-link">HOME</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="course.html" class="footer__nav-link">COURSE</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="event.html" class="footer__nav-link">EVENTS</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="blog.html" class="footer__nav-link">BLOG</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="about.html" class="footer__nav-link">ABOUT</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script>
+      var btn__enroll = document.getElementById("#show-enroll")
+      var enroll = document.getElementsByClassName("enroll")
+      btn__enroll.addEventListener("click",function(){
+        enroll.classList.add(" active")
+      });
+    </script>
+    <script src="./assets/js/login_form.js"></script>
+    <script>
+      var x = document.getElementById("login");
+      var y = document.getElementById("register");
+      var z = document.getElementById("button");
+      function register() {
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px";
+      }
+      function login() {
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0px";
+      }
+    </script>
+    <script src="assets/js/home.js"></script>
+</body>
+</html>

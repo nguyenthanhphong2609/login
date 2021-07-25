@@ -1,0 +1,40 @@
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+#top {
+  height: 50px;
+  background-color: #30a8cc;
+}
+#top p {
+  margin-top: 13px;
+  margin-left: 00px;
+  font-size: 12px;
+  color: white;
+}
+#top i {
+  color: gray;
+  font-size: 18px;
+}
+#top i:hover {
+  color: white;
+}
+#subjects {
+  border: none;
+  color: white;
+}
+option {
+  color: #333;
+}
+.plan__categories h4{
+    color: black;
+}
+.plan__categories .separate{
+    width: 40px;
+    height: 20px;
+    border-bottom: solid 3px #FFBD88;
+}
+
+
+

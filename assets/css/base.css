@@ -1,0 +1,74 @@
+/* Color */
+:root {
+  --primary-color: #9261aa;
+  --purple-color1: #5e3373;
+  --purple-color2: #562c69;
+  --purple-color3: #4e265f;
+  --second-color: #ffbd33;
+  --third-color: #30a8cc;
+  --footer-bg: #1a1a1a;
+  --footer-textcolor: rgb(110, 110, 110);
+  --bg-facebook: #4867aa;
+  --bg-twitter: #3cf;
+  --bg-google: #db4437;
+  --bg-rss: #e78733;
+  --bg-linked: #0177b5;
+  /* font */
+  --font-family1: "Oswald", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+button {
+  background-color: transparent;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+.row-exe {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* animate */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fromLeft {
+  from {
+    opacity: 0;
+    left: -100%;
+  }
+  to {
+    opacity: 1;
+    left: 0;
+  }
+}

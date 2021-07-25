@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Events</title>
+	<link rel='stylesheet' href='.\css\css\Iconbox.css'/>
+	<link rel='stylesheet' href='.\css\css\font-awesome-4.5.0-master\css\font-awesome.css'/>
+	<link rel='stylesheet' href='.\css\css\bootstrap-3.3.2-dist\css\bootstrap.css'/>
+	<link rel='stylesheet' href='.\css\css\framework.css'/> 
+	<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C500%2C700%2C900%2C100italic%2C300italic%2C400italic%2C500italic%2C700italic%2C900italic%7COswald%3A300%2C400%2C700&#038;ver=1592623596"/>
+	<link rel='stylesheet' href='.\css\css\style.css'/>
+	<link rel = "stylesheet" href = "./assets/css/base.css"></link>
+    <link rel = "stylesheet" href = "./assets/css/Home/home.css"></link>
+	<link rel="stylesheet" href="./assets/css/Home/homeresponsive.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+<!-- header -->
+     <header class="header">
+      <div class="row-exe">
+        <!-- menu toggle -->
+        <div class="menu__toggle">
+          <i class="fa fa-bars"></i>
+        </div>
+        <!-- header logo -->
+        <div class="header__logo">
+          <a href="index.html" class="header__logo-link">
+            <img
+              src="./img/Picture8.png"
+              alt="Ex_Logo"
+              class="header__logo-img"
+            />
+          </a>
+        </div>
+        <!-- menu -->
+        <div class="header__menu">
+          <div class="header__menu-details">
+            <!-- nav -->
+            <nav class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a href="index.html" class="header__nav-link">HOME</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="blog.html" class="header__nav-link">BLOG</a>
+                </li>
+                <li class="header__nav-item">
+                  <a
+                    href="F:\Desktop\course\Course-list.html"
+                    class="header__nav-link"
+                  >
+                    <span>COURSE</span>
+                    <i class="fa fa-caret-down"></i>
+                  </a>
+                  <!-- sub menu -->
+                    <ul class="nav-child__list">
+                      <li class="nav-child__item">
+                        <a
+                          href="Business Management.html"
+                          class="nav-child__link"
+                        >
+                          <i class="fa fa-chevron-right"></i>
+                          <span>BUSINESS MANAGEMENT</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a
+                          href="Graphic Design.html"
+                          class="nav-child__link"
+                        >
+                          <i class="fa fa-chevron-right"></i>
+                          <span>GRAPHIC DESIGN</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a
+                          href="Law Economic.html"
+                          class="nav-child__link"
+                        >
+                          <i class="fa fa-chevron-right"></i>
+                          <span>LAW ECONOMIC</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a
+                          href="Mobile Apps Develop.html"
+                          class="nav-child__link"
+                        >
+                          <i class="fa fa-chevron-right"></i>
+                          <span>MOBILE APPS DEVELOP</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a
+                          href="Web Design.html"
+                          class="nav-child__link"
+                        >
+                          <i class="fa fa-chevron-right"></i>
+                          <span>WEB DESIGN</span>
+                        </a>
+                      </li>
+                    </ul>
+                </li>
+                <li class="header__nav-item">
+                  <a href="event.html" class="header__nav-link">EVENTS</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="teacher.html" class="header__nav-link">TEACHERS</a>
+                </li>
+                <li class="header__nav-item">
+                  <a
+                    href="./File About + Contact us/About us.html"
+                    class="header__nav-link"
+                    >ABOUT</a
+                  >
+                </li>
+                <li class="header__nav-item">
+                  <a
+                    href="./File About + Contact us/test contact us.html"
+                    class="header__nav-link"
+                    >CONTACT</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <!-- menu icon -->
+            <div class="menu__icon">
+              <div class="cart__icon">
+                <i class="fa fa-shopping-cart"></i>
+              </div>
+              <div class="search__icon">
+                <i class="fa fa-search"></i>
+              </div>
+              <div class="lock__icon" id="show-login">
+                <i class="fa fa-user"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- mobile nav -->
+        <div class="header-mobile__nav">
+          <!-- search bar -->
+          <form action="" class="mobile__searchbar">
+            <input type="text" placeholder="Search..." />
+            <button class="btn btn-searchbar">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+          <!-- mobile nav -->
+          <nav class="mobile-nav">
+            <ul class="mobile__nav-list">
+              <li class="mobile__nav-item">
+                <a href="index.html" class="mobile__nav-link">HOME</a>
+              </li>
+              <li class="mobile__nav-item">
+                <a href="blog.html" class="mobile__nav-link">BLOG</a>
+              </li>
+              <li class="mobile__nav-item">
+                <button class="mobile__nav-link">
+                  <span>COURSE</span>
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+                <!-- second menu -->
+                <ul class="mobile__nav-child-list">
+                  <li class="mobile__nav-child-item">
+                    <a
+                      href="./Course-list.html"
+                      class="mobile__nav-child-link"
+                      >Business</a
+                    >
+                  </li>
+                  <li class="mobile__nav-child-item">
+                    <a
+                      href="./Course-list.html"
+                      class="mobile__nav-child-link"
+                      >Science</a
+                    >
+                  </li>
+                  <li class="mobile__nav-child-item">
+                    <a
+                      href="./Course-list.html"
+                      class="mobile__nav-child-link"
+                      >Life Skills</a
+                    >
+                  </li>
+                  <li class="mobile__nav-child-item">
+                    <a
+                      href="./Course-list.html"
+                      class="mobile__nav-child-link"
+                      >Technology</a
+                    >
+                  </li>
+                  <li class="mobile__nav-child-item">
+                    <a
+                      href="./Course-list.html"
+                      class="mobile__nav-child-link"
+                      >Law</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="mobile__nav-item">
+                <a href="event.html" class="mobile__nav-link">EVENTS</a>
+              </li>
+              <li class="mobile__nav-item">
+                <a href="teacher.html" class="mobile__nav-link">TEACHERS</a>
+              </li>
+              <li class="mobile__nav-item">
+                <a
+                  href="./File About + Contact us/About us.html"
+                  class="mobile__nav-link"
+                  >ABOUT</a
+                >
+              </li>
+              <li class="mobile__nav-item">
+                <a
+                  href="./File About + Contact us/test contact us.html"
+                  class="mobile__nav-link"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+	      <div class="overlay"></div>
+      <!-- ------------------- -->
+      <!-- small info -->
+      <div class="small-info">
+        <div class="row-exe">
+          <a href="mailto:infoacademica@gmail.com" class="small-info__email">
+            <i class="fab fa-telegram-plane"></i>
+            <span>EXCELLENTCOACHING@gmail.com</span>
+          </a>
+          <p class="calendar-info">
+            <i class="fa fa-clock"></i>
+            <span>MON - SAT: 9:00 - 18:00</span>
+          </p>
+        </div>
+      </div>
+<div id="wrapper-content" class="clearfix">
+<section id="page-title" class="page-title-wrap page-title-margin">
+	<div class="page-title-parallax" style="background-image: url('ảnh nền.jpg');background-position:center center;"></div>
+	<div class="container">
+		<div class="page-title-inner pt-bottom">
+			<div class="m-title">
+				<h2 class="p-font">Events</h2>
+			</div>
+			<div class="breadcrumbs-wrap">
+				<div class="breadcrumbs-inner">
+					<ul class="breadcrumbs">
+						<li><a href="<!--Trang Chủ--><a"class="home"><i class="fa fa-home"></i></a></li>
+							<li><span><h1>Events</h1></span></li>
+								<li><span><h1>Designing Effective Slides</h1></span></li></ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<main class="single-event-wrap has-sidebar">
+<div class="container clearfix">
+	<div class="row clearfix">
+		<div class="col-md-8 col-sm-12 mg-bottom-60">
+			<div class="single-post-inner">
+				<div id="post-580" class="post-580 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tag-e-learning tag-education tag-hot-events tag-online-courses">
+					<div class="tribe-events-event-image"><img width="770" height="513" src=".\assets\image\upcomming\upcom1.jpg" class="attachment-full size-full wp-post-image" alt="" srcset=".\assets\image\upcomming\upcom1.jpg 770w, " sizes="(max-width: 770px) 100vw, 770px" />
+					</div> 
+						<h4 class="tribe-events-single-event-title mg-top-60 fs-25 heading-color">Designing Effective Slides</h4> 
+							<span class="event-author">g5plusacc</span>
+							<span class="event-comment">0</span>
+							<span class="event-view">3130</span>
+<div class="tribe-events-single-event-description tribe-events-content">
+	<p>You’ve sweated out the details of your presentation. You’ve labored over your PowerPoint deck, writing, rewriting, and editing until your key messages shine through. You’re ready. But are you really? Presenters often overlook a valuable opportunity to connect with their audience: their title slides. Think about it. Your title slide is up there on the screen while you wait for the audience to arrive and find their seats. It might be onscreen while you’re being introduced by your host. Your title slides can be very effective billboards for you, but only if you design them well. This seminar is an great opportunity to help you solve all problem to make perfect slides.</p>
+		<div class="single-event-tag">
+			<dt>Event Tags:</dt>
+				<dd class="tribe-event-tags">
+					<a href="blog.html" rel="tag">e-learning</a> 
+					<a href="blog.html" rel="tag">education</a> 
+					<a href="blog.html" rel="tag">hot events</a> 
+					<a href="blog.html" rel="tag">online courses</a>
+				</dd> 
+		</div>
+</div>
+
+<form id="rsvp-now" action="" class="tribe-tickets-rsvp cart " method="post" enctype='multipart/form-data'>
+	<h2 class="tribe-events-tickets-title tribe--rsvp">RSVP</h2>
+</form>
+<div class="tickets-unavailable">Tickets are no longer available.</div> 
+				</div> 
+			</div>
+		</div>
+<div class="primary-sidebar sidebar right-sidebar tribe-events-single col-md-4 col-sm-12">
+	<div class="post-580 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tag-e-learning tag-education tag-hot-events tag-online-courses">
+		<div class="tribe-events-meta-group tribe-events-meta-group-details mg-bottom-60">
+<table>
+	<tr>
+		<td> Start </td>
+		<td>
+			March 1, 2016 @ 8:30 am </td>
+	</tr>
+	<tr>
+		<td> End </td>
+		<td>
+			December 31, 2030 @ 10:00 am </td>
+	</tr>
+	<tr>
+		<td> Organizers </td>
+		<td>
+			DR. ANNA LAN<br> </td>
+	</tr>
+	<tr>
+		<td> Address </td>
+	<td>
+		<span class="tribe-address">
+			<span class="tribe-street-address">3222 S 169th St</span>
+				<span class="tribe-delimiter">,</span>
+				<span class="tribe-locality">Seattle</span>
+				<span class="tribe-delimiter">,</span>
+				<abbr class="tribe-region tribe-events-abbr" title="Washington">WA</abbr>
+			<span class="tribe-country-name">United States</span>
+		</span>
+	</td>
+	</tr>
+	<tr>
+		<td> Cost </td>
+		<td class="tribe-events-event-cost"> Free </td>
+	</tr>
+	<tr>
+		<td> Website </td>
+		<td class="tribe-events-event-url"> <a href="https://www.domain.com" target="_self">www.domain.com</a> </td>
+	</tr>
+</table>
+		</div>
+<div class="tribe-events-list-widget mg-bottom-60">
+	<h4 class="widget-title">Location Map</h4>
+<div class="tribe-list-widget">
+	<div id="tribe-events-gmap-0" style="height: 260px; width: 100%"></div>
+</div>
+</div>
+	</div> 
+
+<aside id="tribe-events-list-widget-3" class="widget tribe-events-list-widget"><h4 class="widget-title">Upcoming Events</h4>
+	<ol class="tribe-list-widget">
+		<li class="tribe-events-list-widget-events type-tribe_events post-580 tribe-clearfix tribe-events-venue-403 tribe-events-organizer-420">
+
+<div class="tribe-events-event-image">
+	<a href="Designing Effective Slides.html" tabindex="-1">
+		<img width="150" height="150" src=".\assets\image\upcomming\upcom1(convert 150x150).jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset=".\assets\image\upcomming\upcom1(convert 150x150).jpg 150w" sizes="(max-width: 150px) 100vw, 150px" />
+	</a>
+</div>  
+		<h4 class="tribe-event-title s-font fs-14 fw-medium">
+			<a class="heading-color" href="Designing Effective Slides.html" rel="bookmark">Designing Effective Slides</a>
+		</h4>
+
+<div class="tribe-event-duration">
+	<span class="tribe-event-date-start">March 1, 2016 @ 8:30 am</span> - <span class="tribe-event-date-end">December 31, 2030 @ 10:00 am</span> </div>
+		</li>
+<li class="tribe-events-list-widget-events type-tribe_events post-581 tribe-clearfix tribe-events-venue-403 tribe-events-organizer-420">
+	<div class="tribe-events-event-image">
+		<a href="Creative Problem Solving For Researchers.html" tabindex="-1">
+			<img width="150" height="150" src=".\assets\image\upcomming\upcom2(convert 150x150).jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset=".\assets\image\upcomming\upcom2(convert 150x150).jpg 150w" sizes="(max-width: 150px) 100vw, 150px" />
+		</a>
+	</div> 
+		<h4 class="tribe-event-title s-font fs-14 fw-medium">
+			<a class="heading-color" href="Creative Problem Solving For Researchers.html" rel="bookmark">Creative Problem Solving for Researchers</a>
+		</h4>
+
+<div class="tribe-event-duration">
+	<span class="tribe-event-date-start">March 3, 2016 @ 8:30 am</span> - <span class="tribe-event-date-end">December 26, 2030 @ 10:00 am</span> </div>
+</li>
+<li class="tribe-events-list-widget-events type-tribe_events post-582 tribe-clearfix tribe-events-venue-403 tribe-events-organizer-420">
+
+<div class="tribe-events-event-image">
+	<a href="How To Cook.html" tabindex="-1">
+		<img width="150" height="150" src=".\assets\image\upcomming\upcom3(convert 150x150).jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset=".\assets\image\upcomming\upcom3(convert 150x150).jpg 150w" sizes="(max-width: 150px) 100vw, 150px" />
+	</a>
+</div> 
+	<h4 class="tribe-event-title s-font fs-14 fw-medium">
+		<a class="heading-color" href="How To Cook.html" rel="bookmark">How to cook</a>
+	</h4>
+
+<div class="tribe-event-duration">
+	<span class="tribe-event-date-start">April 13, 2020</span> - <span class="tribe-event-date-end">April 14, 2030</span> </div>
+</li>
+	</ol>
+<p class="tribe-events-widget-link">
+	<a href="Events.html" rel="bookmark">View All Events</a>
+</p>
+</aside>
+</div>
+		</div>
+	</div>
+</main>
+	<div class="tribe-events-after-html"></div>
+</div>
+
+<footer class="footer">
+        <div class="row-exe">
+          <div class="footer-details">
+            <div class="footer__logo">
+              <a href="index.html" class="footer__logo-link">
+                <img src="./img/Picture8.png" class="footer__logo-img" />
+              </a>
+            </div>
+            <div class="footer__top">
+              <div class="footer__top-left">
+                <div class="footer__top-left-top">
+                  <h4 class="footer__heading">ABOUT US</h4>
+                  <p class="footer__desc">
+                    We are an experienced team creating great, unique and easy
+                    to set up templates for WordPress. We are a small, young and
+                    super driven team that likes to make great things happen.
+                  </p>
+                </div>
+                <div class="footer__top-left-bottom">
+                  <h4 class="footer__heading">GET IN TOUCH</h4>
+                  <ul class="footer-social__info">
+                    <li class="footer-social__item">
+                      <i class="fa fa-map-marked"></i>
+                      <span>
+                        G5 Technology JSC, Room 1101, Glory Palace Apartment,
+                        Truong Thi Ward, Vinh City, Nghe An Province,
+                        VietNam(42000)
+                      </span>
+                    </li>
+                    <li class="footer-social__item">
+                      <i class="fa fa-phone"></i>
+                      <span>(+84) 388-969-888 </span>
+                    </li>
+                    <li class="footer-social__item">
+                      <i class="fa fa-envelope"></i>
+                      <span>EXCELLENTCOACHING@gmail.com</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer__top-right">
+                <div class="footer__top-right-top">
+                  <h4 class="footer__heading">NEWSLETTER</h4>
+                  <form action="" class="footer-form">
+                    <input type="text" placeholder="YOUR NAME" />
+                    <input type="email" placeholder="EMAIL ADDRESS" />
+                    <button type="button">THANK YOU</button>
+                  </form>
+                </div>
+                <div class="footer__top-right-bottom">
+                  <h4 class="footer__heading">OUR FLICKR</h4>
+                  <div class="footer__gallery">
+                    <img
+                      src="assets/image/largerImg/largerimg1.jpg"
+                      alt="footerimg1"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg2.jpg"
+                      alt="footerimg2"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg3.jpg"
+                      alt="footerimg3"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg4.jpg"
+                      alt="footerimg4"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg5.jpg"
+                      alt="footerimg5"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg6.jpg"
+                      alt="footerimg6"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg7.jpg"
+                      alt="footerimg7"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg8.jpg"
+                      alt="footerimg8"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg9.jpg"
+                      alt="footerimg9"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__bottom">
+              <nav class="footer__nav">
+                <ul class="footer__nav-list">
+                  <li class="footer__nav-item">
+                    <a href="index.html" class="footer__nav-link">HOME</a>
+                  </li>
+                  <li class="footer__nav-item">
+                    <a href="course.html" class="footer__nav-link">COURSE</a>
+                  </li>
+                  <li class="footer__nav-item">
+                    <a href="event.html" class="footer__nav-link">EVENTS</a>
+                  </li>
+                  <li class="footer__nav-item">
+                    <a href="blog.html" class="footer__nav-link">BLOG</a>
+                  </li>
+                  <li class="footer__nav-item">
+                    <a href="About us.html" class="footer__nav-link">ABOUT</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/login_form.js"></script>
+    <script>
+      var x = document.getElementById("login");
+      var y = document.getElementById("register");
+      var z = document.getElementById("button");
+      function register() {
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px";
+      }
+      function login() {
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0px";
+      }
+    </script>
+    <script src="assets/js/home.js"></script>
+ </body>

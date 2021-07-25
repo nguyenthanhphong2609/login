@@ -1,0 +1,215 @@
+        .hero-image {
+            background-image:  url("./HTML/7.jpg");
+            height: 40%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #shape1 {
+            height: 10%;
+            width: 50%;
+            border-bottom: 120px solid #09053a;
+            border-right: 60px solid transparent;
+            position: absolute;
+            bottom: 0px;
+            z-index: 2;
+        }
+        @media only screen and (max-width: 600px) {
+            #shape1 {
+                height: 10%;
+                width: 50%;
+                border-bottom: 120px solid #09053a;
+                border-right: 60px solid transparent;
+                position: absolute;
+                bottom: 0px;
+                z-index: 2;
+                
+            }
+          }
+        #shape2 {
+            height: 10px ;
+            width: 70%;
+            border-bottom: 90px solid #e4a805;
+            border-right: 60px solid transparent;
+            position: absolute;
+            bottom: 0px;
+            z-index: 1;
+        }
+        .header1{
+            color:rgb(255, 255, 255);
+            margin-top:6%;
+            margin-left: 50%;
+            position: absolute;
+            z-index: 3;
+        }
+        .header2{
+            color:rgb(255, 255, 255);
+            margin-top:3%;
+            margin-left: 75%;
+            position: absolute;
+            z-index: 4;
+        }
+        .header2 i{
+            color: white;
+        }
+        .header2 i:hover{
+            color: aqua;
+        }
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+          }
+        #top{
+            height: 50px;
+            background-color:#1a108a;
+            
+        }
+        #top p{
+            margin-top: 13px;
+            margin-left: 00px;
+            font-size: 12px;
+            color:white
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+          
+          /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {background-color: #ddd}
+        .dropbtn{
+            display: inline-block;
+            margin-left: 0px;
+            padding-right: 20px;
+            size:200%;
+        }
+        .dropbtn:hover{
+            
+        }
+        #top i{
+            color: gray;
+            padding:10px;
+            font-size: 18px;
+        }
+        #top i:hover{
+            color:white;
+        }
+        .course-space{
+            margin-top: 10px;
+            height: 2px;
+            width: 40px;
+            background-color: orange;
+        }
+        #detail{
+            padding-top: 20px;
+        }
+        #course-button{
+            width: 150px;
+            height: 40px;
+        }
+        #course-detail{
+            margin-bottom: 20px;
+        }
+        .image-box{
+            box-sizing: border-box;
+            width: 100%;
+            padding-top:10px;
+            overflow:hidden;
+            position: relative;
+        }
+        .image-box span{
+            position: absolute;
+            background-color: gold;
+            width: 40px;
+            height:20px;
+            top: 20px;
+            right: 0px;
+            text-align: center;
+        }
+        
+        
+        #span__white{
+            background-color: #4c7faf;
+            height: 5px;
+            width: 100%;
+            position: absolute;
+            bottom:0px;
+            z-index: 2;
+        }
+        .image-box:hover img{
+            transform: scale(1.05);
+            transition: 1s;
+            
+        }        
+        #course-instructor{
+            padding-top: 20px;
+        }
+        #course-instructor img{
+            border-radius: 50%;
+        }
+       .hidden_row {
+           display: none;
+       }
+       .row i{
+          color: orange;
+       }
+       .course__icon{
+           float: right;
+           display: flexbox;
+       }
+       #left__col{
+           background-image: url("./HTML/1.jpg");
+           height: max-content;
+       }
+       .row{
+           max-width: 1200px;
+           margin-bottom: 10px;
+           align-self: center;
+       }
+       .row #course1{
+           padding-top: 20px;
+           padding-bottom: 20px;
+           border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+           background-color: none
+       }
+       .row #course1:hover{
+           background-color: aliceblue;
+       }
+       .pagination {
+        display: inline-block;
+      }
+      
+      .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      
+      .pagination a.active {
+        background-color: #4c7faf;
+        color: white;
+      }
+      
+      .pagination a:hover:not(.active) {background-color: #ddd;}

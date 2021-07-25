@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
+    <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C500%2C700%2C900%2C100italic%2C300italic%2C400italic%2C500italic%2C700italic%2C900italic%7COswald%3A300%2C400%2C700&#038;ver=1592623596"/>
+    
+    <link rel='stylesheet' href='./css/css/framework.css'/>
+	<link rel='stylesheet' href='.\css\font-awesome-4.5.0-master\css\font-awesome.css'/>
+	<link rel='stylesheet' href='.\css\bootstrap-3.3.2-dist\css\bootstrap.css'/>
+	<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C500%2C700%2C900%2C100italic%2C300italic%2C400italic%2C500italic%2C700italic%2C900italic%7COswald%3A300%2C400%2C700&#038;ver=1592623596"/>
+	 <link rel='stylesheet' href='./css/css/style.css'/>
+    <script src = "./js/Course-list.js"></script>
+    <link rel = "stylesheet" href = "./assets/css/base.css"></link>
+    <link rel = "stylesheet" href = "./assets/css/Home/home.css"></link>
+    <link rel = "stylesheet" href = "./assets/css/Home/homeresponsive.css"></link>
+    <!--  -->
+    <link rel = "stylesheet" href = "./css/plans.css"></link>
+    <script>
+        function SelectRedirect(){
+            
+            switch(document.getElementById('subjects').value)
+    {
+        case "1":
+        window.location="";
+        break;
+
+        case "2":
+        window.location="./course_business.html";
+        break;
+
+        case "3":
+        window.location="./course_graphic.html";
+        break;
+        case "4":
+        window.location="./course_law.html";
+        break;
+
+        case "5":
+        window.location="./course_mobile.html";
+        break;
+        case "6":
+        window.location="./course_seo.html";
+        break;
+        case "7":
+        window.location="./course_social.html";
+        break;
+        case "8":
+        window.location="./course_web design.html";
+        break;
+        /// Can be extended to other different selections of SubCategory //////
+        default:
+        window.location="./allcourse1.html"; // if no selection matches then redirected to home page
+        break;
+    }
+    }
+    </script>
+</head>
+<body>
+      <!-- header -->
+      <header class="header">
+        <div class="row-exe">
+          <!-- menu toggle -->
+          <div class="menu__toggle">
+            <i class="fa fa-bars"></i>
+          </div>
+          <!-- header logo -->
+          <div class="header__logo">
+            <a href="index.html" class="header__logo-link">
+              <img
+                src="./img/Picture8.png"
+                alt="Ex_Logo"
+                class="header__logo-img"
+              />
+            </a>
+          </div>
+          <!-- menu -->
+          <div class="header__menu">
+            <div class="header__menu-details">
+              <!-- nav -->
+              <nav class="header__nav">
+                <ul class="header__nav-list">
+                  <li class="header__nav-item">
+                    <a href="index.html" class="header__nav-link">HOME</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="blog.html" class="header__nav-link">BLOG</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="allcourse1.html" class="header__nav-link">
+                      <span>COURSE</span>
+                      <i class="fa fa-caret-down"></i>
+                    </a>
+                    <!-- sub menu -->
+                    <ul class="nav-child__list">
+                      <li class="nav-child__item">
+                        <a href="course_business.html" class="nav-child__link">
+                          <i class="fa fa-chevron-right"></i>
+                          <span>BUSINESS MANAGEMENT</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a href="course_graphic.html" class="nav-child__link">
+                          <i class="fa fa-chevron-right"></i>
+                          <span>GRAPHIC DESIGN</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a href="course_law.html" class="nav-child__link">
+                          <i class="fa fa-chevron-right"></i>
+                          <span>LAW ECONOMIC</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a href="course_mobile.html" class="nav-child__link">
+                          <i class="fa fa-chevron-right"></i>
+                          <span>MOBILE APPS DEVELOP</span>
+                        </a>
+                      </li>
+                      <li class="nav-child__item">
+                        <a href="course_web design.html" class="nav-child__link">
+                          <i class="fa fa-chevron-right"></i>
+                          <span>WEB DESIGN</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="event.html" class="header__nav-link">EVENTS</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="teacher-details.html" class="header__nav-link">TEACHERS</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="About us.html" class="header__nav-link">ABOUT</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="Contact us.html" class="header__nav-link">CONTACT</a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- menu icon -->
+              <div class="menu__icon">
+                <div class="cart__icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="search__icon">
+                  <i class="fas fa-search"></i>
+                </div>
+                <div class="lock__icon" id="show-login">
+                  <i class="fas fa-user"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- mobile nav -->
+          <div class="header-mobile__nav">
+            <!-- search bar -->
+            <form action="" class="mobile__searchbar">
+              <input type="text" placeholder="Search..." />
+              <button class="btn btn-searchbar">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+            <!-- mobile nav -->
+            <nav class="mobile-nav">
+              <ul class="mobile__nav-list">
+                <li class="mobile__nav-item">
+                  <a href="index.html" class="mobile__nav-link">HOME</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="blog.html" class="mobile__nav-link">BLOG</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <button class="mobile__nav-link">
+                    <span>COURSE</span>
+                    <i class="fa fa-chevron-down"></i>
+                  </button>
+                  <!-- second menu -->
+                  <ul class="mobile__nav-child-list">
+                    <li class="mobile__nav-child-item">
+                      <a href="course_business.html" class="mobile__nav-child-link"
+                        >BUSINESS MANAGEMENT</a
+                      >
+                    </li>
+                    <li class="mobile__nav-child-item">
+                      <a href="course_graphic.html" class="mobile__nav-child-link"
+                        >GRAPHIC DESIGN</a
+                      >
+                    </li>
+                    <li class="mobile__nav-child-item">
+                      <a href="course_law.html" class="mobile__nav-child-link"
+                        >LAW ECONOMIC</a
+                      >
+                    </li>
+                    <li class="mobile__nav-child-item">
+                      <a href="course_mobile.html" class="mobile__nav-child-link"
+                        >MOBILE APPS DEVELOP</a
+                      >
+                    </li>
+                    <li class="mobile__nav-child-item">
+                      <a href="course_web design.html" class="mobile__nav-child-link"
+                        >WEB DESIGN</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="event.html" class="mobile__nav-link">EVENTS</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="teacher-details.html" class="mobile__nav-link">TEACHERS</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="About us.html" class="mobile__nav-link">ABOUT</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="Contact us.html" class="mobile__nav-link">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- login form -->
+      <div class="hero">
+        <div class="form-box">
+          <div class="close-btn">&times;</div>
+          <div class="button-box">
+            <div id="button"></div>
+            <button type="button" class="toggle-button" onclick="login()">
+              Log in
+            </button>
+            <button type="button" class="toggle-button" onclick="register()">
+              Register
+            </button>
+          </div>
+          <div class="social-icons">
+            <img src="./Test/Test/Facebook.png" />
+            <img src="./Test/Test/Twitter.png" />
+            <img src="./Test/Test/google.png" />
+          </div>
+          <form id="login" class="input-group">
+            <input
+              type="text"
+              class="input-field"
+              placeholder="User Id"
+              required
+            />
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Enter Password"
+              required
+            />
+            <input type="checkbox" class="check-box" />
+            <span class="login-form-span">Remember Password</span>
+            <button type="submit" class="submit-button">Login</button>
+          </form>
+          <form id="register" class="input-group">
+            <input
+              type="text"
+              class="input-field"
+              placeholder="User Id"
+              required
+            />
+            <input
+              type="email"
+              class="input-field"
+              placeholder="Email"
+              required
+            />
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Enter Password"
+              required
+            />
+            <input type="checkbox" class="check-box" />
+            <span class="login-form-span"
+              >I agree to the tern & conditions</span
+            >
+            <button type="submit" class="submit-button">Register</button>
+          </form>
+        </div>
+      </div>
+      <!-- overlay -->
+      <div class="overlay"></div>
+      <!-- ------------------- -->
+      <!-- small info -->
+      <div class="small-info">
+        <div class="row-exe">
+          <a href="mailto:infoexcellentcoaching@gmail.com" class="small-info__email">
+            <i class="fab fa-telegram-plane"></i>
+            <span>EXCELLENTCOACHING@gmail.com</span>
+          </a>
+          <p class="calendar-info">
+            <i class="far fa-clock"></i>
+            <span>MON - SAT: 9:00 - 18:00</span>
+          </p>
+        </div>
+      </div>
+    <section id="page-title" class="page-title-wrap page-title-margin">
+        <div class="page-title-parallax" style="background-image: url(./img/8.jpg);background-position:center center;"></div>
+        <div class="container">
+            <div class="page-title-inner pt-bottom">
+                <div class="m-title">
+                    <h2 class="p-font" style="color:white;">Price</h2>
+                </div>
+                <div class="breadcrumbs-wrap">
+                    <div class="breadcrumbs-inner">
+                        <ul class="breadcrumbs">
+                            <li><a href="./index.html"<a class="home"><i class="fa fa-home"></i></a></li>
+                                <li><span><h1>Price list</h1></span></li></ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container" align=center>
+        <div class="row" style="margin-bottom:20px; margin-top: 20px;" align=left>
+            <div class = "col-12 col-sm-8 col-md-8" style = "margin: 0;" id = "top">
+                <p>SHOWING 1–12 OF 18 RESULTS</p>
+            </div>
+            <div class = "col-12 col-sm-4 col-md-4" style = "margin: 0;" id = "top">
+                <select id = "subjects" onChange="SelectRedirect()">
+                    <option value = "1">ALL COURSE</option>
+                    <option value = "2">BUSINESS MANAGEMENT (8)</option>
+                    <option value = "3">GRAPHIC DESIGN (6)</option>
+                    <option value = "4">LAW ECONOMIC (7)</option>
+                    <option value = "5">MOBILE APPS DEVELOP (6)</option>
+                    <option value = "6">SEO COURSE (8)</option>
+                    <option value = "7">SOCIAL MEDIA (7)</option>
+                    <option value = "8">WEB DESIGN (7)</option>
+                </select><i style ="color:white;" class="fas fa-caret-down"></i>
+            </div>
+        </div>  
+        <div class ="row">
+            <div class = "col-12 col-md-6" style = "padding: 0 15px;" align = left>
+              <div class = "plan__categories">
+                  <h4>BUSINESS MANAGEMENT</h4>
+                  <div class = "separate">
+                  </div>
+              </div>
+              <table class="table table-sm">
+                <tr class ="bg-warning">
+                  <th scope="col" id = "id">#</th>
+                  <th scope="col" id = "course">COURSE</th>
+                  <th scope="col" id = "price">PRICE</th>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>THE SECRETS OF ECONOMIC</td>
+                  <td>£250.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>REAL ESTATE LAW</td>
+                  <td>£200.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>BUSINESS LAW</td>
+                  <td>£150.00 – £180.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>A THEORY OF JUSTICE</td>
+                  <td>£200.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>ECONOMIC ANALYSIS</td>
+                  <td>£150.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>HOW JUDGES THINK</td>
+                  <td>£150.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>LAW AND ECONOMICS</td>
+                  <td>£150.00</td>
+                </tr>                  
+              </table>
+            </div>
+            <div class = "col-12 col-md-6" style = "padding: 0 15px;" align = left>
+              <div class = "plan__categories">
+                  <h4>GRAPHIC DESIGN</h4>
+                  <div class = "separate">
+                  </div>
+              </div>
+              <table class="table table-sm">
+                <tr class ="bg-warning">
+                  <th scope="col" id = "id">#</th>
+                  <th scope="col" id = "course">COURSE</th>
+                  <th scope="col" id = "price">PRICE</th>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>CONTENT STRATEGY</td>
+                  <td>£250.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>CSS3 FOR WEB DESIGNERS</td>
+                  <td>£180.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>DOM SCRIPTING</td>
+                  <td>£100.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>INTERACTION DESIGN</td>
+                  <td>£210.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>RESPONSIVE WEB DESIGN</td>
+                  <td>£250.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>UX DESIGN</td>
+                  <td>£150.00</td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td>&emsp; </td>
+                  <td>&emsp; </td>
+                </tr>                  
+              </table>
+            </div>
+        </div>
+      </br>
+    </br>
+    <div class ="row">
+      <div class = "col-12 col-md-6" style = "padding: 0 15px;" align = left>
+        <div class = "plan__categories">
+            <h4>MOBILE APPS DEVELOP</h4>
+            <div class = "separate">
+            </div>
+        </div>
+        <table class="table table-sm">
+          <tr class ="bg-warning">
+            <th scope="col" id = "id">#</th>
+            <th scope="col" id = "course">COURSE</th>
+            <th scope="col" id = "price">PRICE</th>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>ANDROID PROGRAMMING</td>
+            <td>£210.00</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>CONTENT STRATEGY</td>
+            <td>£250.00</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>IOS9 PROGRAMMING</td>
+            <td>£210.00</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>RESPONSIVE WEB DESIGN</td>
+            <td>£250.00</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>UX DESIGN</td>
+            <td>£150.00</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>CSS3 FOR WEB DESIGNERS</td>
+            <td>£150.00</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>RESPONSIVE WEB DESIGN</td>
+            <td></td>
+          </tr>                  
+        </table>
+      </div>
+      <div class = "col-12 col-md-6" style = "padding: 0 15px;" align = left>
+        <div class = "plan__categories">
+            <h4>SEO COURSE</h4>
+            <div class = "separate">
+            </div>
+        </div>
+        <table class="table table-sm">
+          <tr class ="bg-warning">
+            <th scope="col" id = "id">#</th>
+            <th scope="col" id = "course">COURSE</th>
+            <th scope="col" id = "price">PRICE</th>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>CONTENT STRATEGY</td>
+            <td>£250.00</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>CSS3 FOR WEB DESIGNERS</td>
+            <td>£180.00</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>DOM SCRIPTING</td>
+            <td>£100.00</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>INTERACTION DESIGN</td>
+            <td>£210.00</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>RESPONSIVE WEB DESIGN</td>
+            <td>£250.00</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>UX DESIGN</td>
+            <td>£150.00</td>
+          </tr>
+          <tr>
+            <th scope="row"></th>
+            <td>&emsp; </td>
+            <td>&emsp; </td>
+          </tr>                  
+        </table>
+      </div>
+  </div>
+      </div>
+    </br>
+</br>
+</br>
+      <!-- movetotop -->
+        <div class="movetotop">
+            <a href="#">
+              <i class="fas fa-arrow-circle-up"></i>
+            </a>
+        </div>
+     <!-- img larger -->
+     <div class="footer-img__larger">
+        <div class="footer-img__larger-inner">
+          <img src="" alt="" class="img-footer-larger" />
+          <div class="close__imglarger">
+            <i class="fas fa-times-circle"></i>
+          </div>
+          <div class="larger-btns">
+            <i class="fa fa-chevron-left btn-prev-larger"></i>
+            <i class="fas fa-th-large btn-larger-gallery"></i>
+            <i class="fa fa-chevron-right btn-next-larger"></i>
+          </div>
+        </div>
+        <div class="larger-list__img">
+          <div class="larger-list__img-inner">
+            <div class="close__larger-img">
+              <i class="fa fa-times"></i>
+            </div>
+            <div class="color-header"></div>
+            <div class="gallery-larger-img">
+              <img
+                src="assets/image/largerImg/largerimg1.jpg"
+                alt="footerimg1"
+              />
+              <img
+                src="assets/image/largerImg/largerimg2.jpg"
+                alt="footerimg2"
+              />
+              <img
+                src="assets/image/largerImg/largerimg3.jpg"
+                alt="footerimg3"
+              />
+              <img
+                src="assets/image/largerImg/largerimg4.jpg"
+                alt="footerimg4"
+              />
+              <img
+                src="assets/image/largerImg/largerimg5.jpg"
+                alt="footerimg5"
+              />
+              <img
+                src="assets/image/largerImg/largerimg6.jpg"
+                alt="footerimg6"
+              />
+              <img
+                src="assets/image/largerImg/largerimg7.jpg"
+                alt="footerimg7"
+              />
+              <img
+                src="assets/image/largerImg/largerimg8.jpg"
+                alt="footerimg8"
+              />
+              <img
+                src="assets/image/largerImg/largerimg9.jpg"
+                alt="footerimg9"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer class="footer">
+        <div class="row-exe">
+          <div class="footer-details">
+            <div class="footer__logo">
+              <a href="index.html" class="footer__logo-link">
+                <img
+                  src="./img/Picture8.png"
+                  
+                  class="footer__logo-img"
+                />
+              </a>
+            </div>
+            <div class="footer__top">
+              <div class="footer__top-left">
+                <div class="footer__top-left-top">
+                  <h4 class="footer__heading">ABOUT US</h4>
+                  <p class="footer__desc">
+                    We are an experienced team creating great, unique and easy
+                    to set up templates for WordPress. We are a small, young and
+                    super driven team that likes to make great things happen.
+                  </p>
+                </div>
+                <div class="footer__top-left-bottom">
+                  <h4 class="footer__heading">GET IN TOUCH</h4>
+                  <ul class="footer-social__info">
+                    <li class="footer-social__item">
+                      <i class="fa fa-map-marked"></i>
+                      <span>
+                        G5 Technology JSC, Room 1101, Glory Palace Apartment,
+                        Truong Thi Ward, Vinh City, Nghe An Province,
+                        VietNam(42000)
+                      </span>
+                    </li>
+                    <li class="footer-social__item">
+                      <i class="fa fa-phone"></i>
+                      <span>(+84) 388-969-888 </span>
+                    </li>
+                    <li class="footer-social__item">
+                      <i class="fa fa-envelope"></i>
+                      <span>EXCELLENTCOACHING@gmail.com</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer__top-right">
+                <div class="footer__top-right-top">
+                  <h4 class="footer__heading">NEWSLETTER</h4>
+                  <form action="" class="footer-form">
+                    <input type="text" placeholder="YOUR NAME" />
+                    <input type="email" placeholder="EMAIL ADDRESS" />
+                    <button type="button">THANK YOU</button>
+                  </form>
+                </div>
+                <div class="footer__top-right-bottom">
+                  <h4 class="footer__heading">OUR FLICKR</h4>
+                  <div class="footer__gallery">
+                    <img
+                      src="assets/image/largerImg/largerimg1.jpg"
+                      alt="footerimg1"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg2.jpg"
+                      alt="footerimg2"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg3.jpg"
+                      alt="footerimg3"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg4.jpg"
+                      alt="footerimg4"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg5.jpg"
+                      alt="footerimg5"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg6.jpg"
+                      alt="footerimg6"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg7.jpg"
+                      alt="footerimg7"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg8.jpg"
+                      alt="footerimg8"
+                    />
+                    <img
+                      src="assets/image/largerImg/largerimg9.jpg"
+                      alt="footerimg9"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__bottom">
+              <nav class="footer__nav">
+                <ul class="footer__nav-list">
+                  <li class="footer__nav-item">
+                    <a href="index.html" class="footer__nav-link">HOME</a>
+                  </li>
+                  <li class="footer__nav-item">
+                    <a href="allcourse1.html" class="footer__nav-link">COURSE</a>
+                  </li>
+                  <li class="footer__nav-item">
+                    <a href="event.html" class="footer__nav-link">EVENTS</a>
+                  </li>
+                  <li class="footer__nav-item">
+                    <a href="blog.html" class="footer__nav-link">BLOG</a>
+                  </li>
+                  <li class="footer__nav-item">
+                    <a href="About us.html" class="footer__nav-link">ABOUT</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="assets/js/login_form.js"></script>
+      <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("button");
+        function register() {
+          x.style.left = "-400px";
+          y.style.left = "50px";
+          z.style.left = "110px";
+        }
+        function login() {
+          x.style.left = "50px";
+          y.style.left = "450px";
+          z.style.left = "0px";
+        }
+      </script>
+      <script src="assets/js/home.js"></script>
+    </body>
+</html>

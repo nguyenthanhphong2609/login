@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+}
+.footer{
+    background-color:rgb(241, 238, 238);
+    padding-top: 30px;
+    font-family: 'Roboto',sans-serif;
+}
+.heading{
+    text-align: center; 
+}
+.heading p{
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #494949;
+}
+.heading span{
+    font-size: 0.8rem;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    color: rgb(243, 215, 54);
+}
+.heading span::before{
+    right: 13px;
+    content: "\f005";
+    font-family:"FontAwesome";
+    position: absolute;
+    top: 0;
+    font-size: 11px;
+}
+.heading span::after{
+    left: 13px;
+    content: "\f005";
+    font-family:"FontAwesome";
+    position: absolute;
+    top: 0;
+    font-size: 11px;
+}
+.heading::after{
+    content: " ";
+    display: block;
+    border-bottom: 2px solid hsl(46, 88%, 61%);
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.ourteacher{
+   padding: 30px 0;
+}
+.teacher-avatar{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+.teacher-avatar img{
+    position: relative;
+    height: 255px;
+    width: 100%;
+}
+    
+.teacher-avatar_hover{
+    position: absolute;
+    z-index: 1;
+    top:0px;
+    bottom: 0px;
+    left:0;
+    right:0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #9261aa;
+}
+.teacher-avatar_hover:hover{
+    opacity: 0.9;
+    transition: 0.5s;
+}
+.social-link a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.social-link a{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: #30a8cc;
+    line-height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+}
+.teacher-avatar_hover .social-link{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 3;
+    top:45%;
+    left: 22%;
+}
+
+.teacher-info{
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 6px;
+}
+.teacher-info a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #222;
+}
+.teacher-info p{
+    font-size: 0.8rem;
+    color: #868686;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+} 
+.teacher-info a:visited{
+    text-decoration: none;
+    font-size: 18px;
+    color: #222222;
+}
+.teacher-info a:hover{
+    color: rgb(153, 107, 151);
+    text-decoration: none;
+}
+
+@media screen and(max-width:750px){
+    .Social-Network li{
+        font-size: 14px;
+    }
+    .Social-Network{
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%,-50%);
+        transition: all .3s ease-in-out;
+        opacity: 0;
+        z-index: 3;
+    }
+
+}
+.Social-Network li{
+    display: inline-block;
+}
+.Social-Network li a{
+    font-size: 16px;
+}
+.teacher-list-network img{
+    height: 255px;
+    max-width: 100%;
+}
+.teacher-list-network{
+    position: relative;
+    height: 255px;
+    max-width: 100%;
+    display: inline-block;
+}
+.teacher-list-network::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:#9261aa60;
+    z-index: 2;
+    display: none;
+}
+.teacher-list-network:hover::after{
+    display: block;
+}
+.teacher-list-network a img{
+    display: block;
+    height: 255px;
+    max-width: 100%;
+}
+.Social-Network li{
+    text-align: center;
+}
+.Social-Network{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all .3s ease-in-out;
+    opacity: 0;
+    z-index: 3;
+}
+.teacher-list-network:hover .Social-Network{
+    opacity: 0.6;
+}
+.Social-Network li{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: rgb(209, 213, 218);
+    line-height: 24px;
+}
+.Social-Network li:hover a{
+    color: #fff;
+}
+
+
+@media  screen and(max-width: 500px) {
+    .teacher-list-network a img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+@media screen and(max-width: 250px){
+    .teacher-list-network a img{
+        width: 160px;
+        height: 160px;
+    }
+    .Social-Network li {
+        /* margin-left: 6px; */
+        font-size: 14px;
+    }
+}
+
